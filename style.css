@@ -52,7 +52,7 @@ header{
 .nav_bar >button:nth-last-child(2):hover{
     background-color: #ee480e;
 }
-.nav_bar >button:nth-last-child(1):hover{
+.nav_bar >button:nth-last-child(1):hover,.sign_form button:nth-last-child(1):hover{
 background-color: #683f93;
 color: #fff;
 }
@@ -78,49 +78,47 @@ border-bottom: 3px solid #f15b26;
       padding-bottom: 100px;
   }
 .top_footer{
-      display: grid;
-      grid-template-columns: 50% 35%;
-      gap: 5%;
-      justify-content: space-evenly;
+    display: block;
+    margin-left: 10px;
       color: #2f2c2c; 
   }
 .F_trust_page{
 margin-top: 80px;
+max-width:650px ;
+
   }
 .F_trust_page>h1,.sign_form>h2{
 font-weight: 400;
 
 }
+.F_trust_page>p{
+    font-size: 18px;
+      }
 .F_trust_page>h1>span{
     font-weight: 700;
     color: #693f93; 
 }
-.bullet_img,.bullet_img>div{
-    display: flex;
-    
-}
+
 .bullet_img>div{
-    margin-right: 15px;
-    
+    margin-right: 30px;
+    font-size: 17px;
 }
 .trust_img img{
-    width: 120px;
+    width: 110px;
 }
 .sign_form{
     text-align: center;
     padding: 20px 30px 20px 30px;
     background-color: #fafafd;
     color: #4d4d4d;
-
     font-weight: normal;
+    max-width: 300px;
 }
 .sign_form input{
     padding: 15px 60px 15px 30px;
     border-radius: 3px;
     margin: 10px;
     border: 1px solid  #d1d0d0;;
-
-
 }
 .sign_form button{
     width: 260px;
@@ -142,11 +140,56 @@ border: 1px solid #683f93!important;
 color: #683f93;
 background-color: transparent;
 font-weight: 500;
-
+transition: all .3s ease;
 }
 .sign_form input::placeholder{
     color: #d1d0d0;
 }
+.footer_list,.footer_end{
+    background: linear-gradient(to right,#f6f6f6,#fff);
+}
+.footer_list>div{
+    margin: 20px;
+}
+.footer_list ul{
+    padding: 0;
+    list-style-type: none;
+}
+.footer_list a,.footer_list p,.footer_end{
+  text-decoration: none;
+  color: #a39999f1;
+  font-size: 13px;
+}
+.footer_list img {
+    width: 20px;
+    margin: 5px;
+}
+.footer_list img[alt="logo2"] {
+    width: 60px;
+    margin-top: 30px;
+}
+.footer_list th{
+    background-color: #683f93;
+    color: #fff;
+    
+}
+.footer_list td,.footer_list th {
+    border: 1px solid #c4a7a7;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.footer_list p:hover,.footer_list a:hover{
+    color: #4d4d4d;
+}
+.footer_end{
+display: flex;
+justify-content: space-between;
+
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
@@ -154,18 +197,29 @@ font-weight: 500;
         margin: 0 8%;
     }
     .footer{
-        width: 70%;
+        width: 75%;
         margin: auto;
         padding-top: 100px;
     }
     .top_footer{
-        display: grid;
-        grid-template-columns: 55% 25%;
-        gap: 5%;
+        display: flex;
         justify-content: space-evenly;
         color: #2f2c2c; 
     }
-
+    .F_trust_page{
+        max-width: 650px;
+          }
+    .bullet_img,.bullet_img>div{
+                display: flex;
+            
+        }
+    .footer_list{
+            display: flex;
+        }
+    .footer_list, .footer_end{
+            padding-left: 50px;
+            padding-right: 50px;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -174,16 +228,28 @@ font-weight: 500;
         margin: 0 19%;
     }
     .footer{
-        width: 70%;
+        width: 75%;
         margin: auto;
         padding-top: 100px;
     }
     .top_footer{
-        display: grid;
-        grid-template-columns: 55% 25%;
-        gap: 5%;
+        display: flex;
         justify-content: space-evenly;
         color: #2f2c2c; 
+    }
+    .F_trust_page{
+        max-width: 650px;
+      }
+    
+    .bullet_img,.bullet_img>div{
+            display: flex;
+    
+    }
+    .footer_list{
+        display: flex;
+    }
+    .footer_list, .footer_end{
+       padding: 0 15%;
     }
 
 }
