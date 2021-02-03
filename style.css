@@ -102,6 +102,7 @@ font-weight: 400;
 .bullet_img>div{
     margin-right: 30px;
     font-size: 17px;
+    display: flex;
 }
 .trust_img img{
     width: 110px;
@@ -250,6 +251,16 @@ justify-content: space-between;
     }
     .footer_list, .footer_end{
        padding: 0 15%;
+    }
+    .footer_list>div{
+        margin: 20px 50px;
+    }
+    .footer_list>div:nth-child(1){
+        margin-right:  0px;
+        margin-left:  0px;
+    }
+    .footer_list>div:nth-child(2){
+        margin-left:  10px;
     }
 
 }
