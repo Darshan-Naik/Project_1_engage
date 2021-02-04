@@ -64,11 +64,12 @@ border-bottom: 3px solid #f15b26;
 }
 
 .sticky {
-    position:fixed;
+     background-color: white;
+    transition: all 1s ease;
+     position:fixed;
     top:0;
     right: 0;
     left: 0;
-    background-color: white;
     box-shadow: 0px 1px 10px #656565;
     z-index: 5;
   }
@@ -150,6 +151,7 @@ transition: all .3s ease;
 }
 .footer_list,.footer_end{
     background: linear-gradient(to right,#f6f6f6,#fff);
+
 }
 .footer_list>div{
     margin: 20px;
@@ -162,6 +164,9 @@ transition: all .3s ease;
   text-decoration: none;
   color: #a39999f1;
   font-size: 13px;
+}
+.footer_list img[alt="logo2"]{
+    margin-left: 100px;
 }
 .footer_list img {
     width: 20px;
@@ -192,9 +197,13 @@ display: flex;
 justify-content: space-between;
 
 }
+
+/* footer part end */
+
+
+/* Heading block */
 .heading{
     margin-top: 100px;
-    padding: 1% 15%;
     text-align: center;
     background-image: url(https://cdn5.engagebay.com/img/index-page-bg-img.png);
     background-repeat: no-repeat;
@@ -244,6 +253,7 @@ display: flex;
 justify-content: center;
 }
 .head_form img{
+display: none;
 width: 200px;
 }
 .heading h3{
@@ -253,14 +263,16 @@ width: 200px;
     padding: 0px;
     color: #870fbb;
     text-align: left;
-    padding-left: 20%;
+    padding-left: 12%;
 }
+
+/* Heading block end*/
+
+/* rating block */
 .rating{
     padding-top: 100px;
 }
-.rating>div:nth-child(1){
-    
-}
+
 .rating_in{
     position: relative;
     z-index: 1;
@@ -286,6 +298,9 @@ width: 200px;
 .rating_in img{
 margin: 10px;
 }
+/* rating block end */
+
+
 .work_place_head{
     text-align: center;
     color: #2f2c2c;
@@ -302,7 +317,9 @@ margin: 10px;
 }
 .work_place{
     display: grid;
-    grid-template-columns: 40% 30% 30%;
+    width: 80%;
+    margin: auto;
+    grid-template-columns:repeat(2, 50%);
     gap: 1px;
     background: linear-gradient(to right,#ffe124 30%,#fbee8d 100%);
     color: #333;
@@ -314,11 +331,11 @@ margin: 10px;
     border: 1px solid #dcbd04;
 }
 .work_place>div:nth-child(1){
-    grid-row-start: 1;
-    grid-row-end:3 ;
+    grid-column-start: 1;
+    grid-column-end:3 ;
     display: block;
     padding: 13% 5%;
-    border-right:  2px solid #fff;
+    border-bottom:  2px solid #fff;
 }
 .work_place img{
     width: 60px;
@@ -357,7 +374,7 @@ text-align: center;
 }
 .mark_row{
     display: grid;
-    grid-template-columns: 30% 30%;
+    grid-template-columns: 40% 40%;
     gap: 2%;
     justify-content: center;
     color: #333;
@@ -419,7 +436,7 @@ margin-bottom: 20px;
     background-color: #FAE576;
     border-radius: 4px;
     text-align: center;
-    width: 55%;
+    width: 75%;
     margin: auto;
     margin-top: -80px;
     color: #161616;
@@ -427,9 +444,8 @@ margin-bottom: 20px;
     padding: 25px;
 }
 .sign_box input{
-    padding: 21px 26px 21px 26px;
+    padding: 21px ;
     font-size: 24px;
-    min-width: 340px;
     margin-bottom: 0!important;
     border: 1px solid #d3d3d3;
     border-radius: 6px;
@@ -450,7 +466,7 @@ margin-bottom: 20px;
     font-weight: 500;
     color: #870fbb;
     margin: 0;
-    padding-left: 20%;
+    padding-left: 8%;
     padding-bottom: 50px;
     text-align: left;
 }
@@ -460,19 +476,20 @@ margin-bottom: 20px;
     font-size: 38px;
     font-weight: 600;
 }
-.Awards>div{
-    display: grid;
-    grid-template-columns: 40% 60%;
-}
 .green{
+    display: none;
     background-color: #B89F5D;
     text-align: center;
     min-width: 600px;
 }
+.green >img{
+    width: 70%;
+    margin-top: 100px;
+}
 .red{
     background-color: #FA292A; 
     color: white; 
-    padding: 25px;
+    padding: 35px;
 }
 .stars{
     display: flex;
@@ -503,7 +520,7 @@ margin-bottom: 20px;
     font-weight: 800;
 }
 .b_head{
-    width: 60%;
+    width: 90%;
     margin: auto;
     text-align: center;
     color: #2f2c2c;
@@ -520,8 +537,7 @@ margin-bottom: 20px;
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(5, 200px);
-    grid-template-rows: repeat(5, 200px);
+    grid-template-columns: repeat(2, 400px);
     justify-content: center;
 }
 .feature-list-secondary img{
@@ -544,6 +560,7 @@ margin-bottom: 20px;
 }
 .part_logo{
     display: flex;
+    justify-content: center;
 }
 .hex{
       margin-left: 45px;
@@ -646,10 +663,9 @@ margin-bottom: 20px;
 
 }
 .Partners{
+    width: 100%;
+    margin-top: 100px;
     background-image: -webkit-linear-gradient(30deg,#cedde6 45%,#bccbde 42%);
-    display: grid;
-    grid-template-columns: 35% 35%;
-    justify-content: space-evenly;
     padding-bottom: 250px;
     padding-top: 50px;
     color: #222;
@@ -668,6 +684,7 @@ margin-bottom: 20px;
     line-height: 60px;
 }
 .part_p{
+    display: none;
     font-size: 23px;
     line-height: 1.4;
 }
@@ -713,10 +730,58 @@ margin-bottom: 20px;
             padding-left: 50px;
             padding-right: 50px;
     }
+    .head_form img{
+        display: block;
+    }
+    .work_place{
+        width: 100%;
+        grid-template-columns: 40% 30% 30%;
+    }
+    .work_place>div:nth-child(1){
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end:3 ;
+        display: block;
+        padding: 13% 5%;
+        border-right:  2px solid #fff;
+    }
+    .sign_box input{
+        padding: 21px 26px 21px 26px;
+        min-width: 340px;
+    }
+    .sign_box h5{
+        padding-left: 20%;
+    }
+    .green{
+        display: block;
+    }
+    .Awards>div{
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+    .b_head{
+        width: 60%;
+    }
+    .feature-list-secondary{
+        width: 80%;
+        grid-template-columns: repeat(5, 200px);
+        grid-template-rows: repeat(6, 200px);
+    }
+    .Partners{
+         display: grid;
+        grid-template-columns: 35% 35%;
+        justify-content: space-around;
+        padding-bottom: 250px;
+        padding-top: 50px;
+    }
+    .part_p{
+        display: block;
+    }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1300px) {
+/* Extra large devices (large laptops and desktops, 1500px and up) */
+@media only screen and (min-width: 1400px) {
     header{
         margin: 0 19%;
     }
@@ -754,5 +819,21 @@ margin-bottom: 20px;
     .footer_list>div:nth-child(2){
         margin-left:  10px;
     }
+    .heading{
 
+        padding: 1% 15%;
+    }
+    .mark_row{
+        grid-template-columns: 30% 30%;
+    }
+    .sign_box{
+        width: 55%;
+    }
+    .green >img{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .heading h3{
+        padding-left: 20%;
+    }
 }

@@ -4,5 +4,4 @@ function sticky(){
     head.setAttribute("class", "sticky")
     
 }
-
-window.addEventListener("resize", sticky)
+window.addEventListener("scroll", sticky)
