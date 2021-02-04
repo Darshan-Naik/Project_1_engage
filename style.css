@@ -522,7 +522,6 @@ margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(5, 200px);
     grid-template-rows: repeat(5, 200px);
-
     justify-content: center;
 }
 .feature-list-secondary img{
@@ -531,13 +530,18 @@ margin-bottom: 20px;
 .feature-list-secondary >div{
     text-align: center;
     color: #2f2c2c;
+    padding-top: 50px;
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
 }
 .feature-list-secondary p{
     width: 70%;
     margin: auto;
     margin-top: 0;
 }
-
+.right-empty{
+    border-right: none!important;
+}
 
 
 
