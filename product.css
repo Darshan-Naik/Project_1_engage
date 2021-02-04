@@ -1,7 +1,7 @@
 .productFeatures{
     background-color: #216ccc;
     padding-top: 60px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
 }
 .topIndex{
     margin-bottom: 30px!important;
@@ -33,22 +33,22 @@
     margin-top: 100px;
 }
 .contText{
-    font-weight: 400 !important;
-    font-size: 32px;
+    font-weight: 500 !important;
+    font-size: 40px;
 }
 .growNum{
-    font-size: 36px;
+    font-size: 46px;
     font-weight: 500!important;
 }
 .mailBox{
     background-color:#fff;
-    font-size: 20px;
+    font-size: 22px;
     color: #797676;
     margin-bottom: 0!important;border-radius: 6px;
     border: 1px solid #d3d3d3!important;
     width: 100%!important;
     height: 70px;
-    padding-left: 20px;
+    padding-left: 25px;
     
     
 }
@@ -71,7 +71,7 @@
 .contLeft{
     text-align: center;
     min-width: 215px;
-    margin-left: 12px;
+    margin-left: 20px;
     margin-bottom: 0!important;
     float: left;
 }
@@ -84,7 +84,7 @@
     border: 1px solid #f16334!important;
     border-radius: 6px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 .tryItout{
@@ -114,4 +114,105 @@
     color: #fff;
     font-size: 16px;
     text-align: left;
+}
+.container2{
+    
+    text-align: center;
+    max-width: 1320px;
+    margin: auto;
+    gap: 25px;
+    display:grid;
+    grid-template: "b1 b2 b3"; 
+       
+}
+.box1{
+    grid-area: b1;
+    border-radius: 4px;
+    background-color: #fff ;
+    padding-bottom: 20px;
+
+}
+.box2{
+    grid-area: b2;
+    border-radius: 4px;
+    background-color: #fff ;
+    padding-bottom: 20px;
+    
+}
+.box3{
+    grid-area: b3;
+    border-radius: 4px;
+    background-color: #fff ;
+    padding-bottom: 20px;
+    
+}
+.boxImg{
+    background-color: #f0eff5;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -35px;
+}
+.boxImg>img{
+    width: 95px;
+}
+.link{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    color: #0067b8;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.boxH{
+    padding-top: 60px;
+    padding-bottom: 15px;
+    color:#252525;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.boxB{
+    color: #656565;
+    font-size: 18px;
+    padding: 20px 20px;
+}
+.boxL{
+    border-top:1px solid #e2e6ea ;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-top: 40px;
+    padding: 20px 20px;
+
+}
+.boxLinkH{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    min-height: 30px;
+    color:#252525 ;
+}
+.btnSignup1{
+    text-align: center;
+    width: 70%;
+    height: 50px;
+    color:#fff ;
+    background-color:#f16334 ;
+    border: 1px solid #f16334!important;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
 }
