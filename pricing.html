@@ -11,8 +11,9 @@
     <title>All-in-one Marketing, Sales, Support CRM | EngageBay</title>
 </head>
 <body>
+
 <!-- navigation bar -->
-<div class="sticky">
+<div>
     <header>
         <div class="logo">
             <a href="./index.html"><img src="https://cdn5.engagebay.com/logo.svg" class="lozad2" alt="EngageBay logo"></a>   
@@ -20,14 +21,15 @@
         <nav class="nav_bar">
             <a href="./products.html">Products  </a>
             <a href="./pricing.html">Pricing</a>
-            <a href="#">Resources </a>
+            <a href="./resources.html">Resources </a>
             <a href="#">Blog</a>
             <a href="./login.html">login</a>
-            <button href="./signup.html">Free Signup</button>
+            <button onclick="window.location.href='./signup.html'" >Free Signup</button>
             <button href="#">Demo</button>
         </nav>
     </header>
 </div>
+
 <!-- navigation bar -->
 <div>
     <div class='pr-title'>
@@ -64,13 +66,60 @@
     <button id='t2'>Yearly <span>(20%off)</span></button>
     <button id='t3'>Biennial<span>(40%off)</span></button>
 </div>
-<div id='members'>
+<div id='members'>    
 <div id='mem1'>
 <p id=tes1>It covers everything a small business sales/marketing team needs</p><br><br>
 <img src='gergley.jpeg' id='d1'>
-<h5>Gergely Csaba N.</h5>
-<h6>Online Marketing, Chamaileon</h6>
+<h5 class='name'>Gergely Csaba N.</h5>
+<h6 class='designation'>Online Marketing, Chamaileon</h6>
 </div>
+<!-- <div id='mem3'>
+    <p id=tes1>All its tools and functions are good, but what i like most are the automation</p><br>and programming in social networks along with landing pages,pop-ups,
+    and forms that together help me increase traffic and in the short term<br>generate sales
+    <img src='dioshai.jpeg' id='d1'>
+    <h5>Dioshai G</h5>
+    <h6>Web developer,Huawei Technologies</h6>
+</div> -->
+</div>
+ <div id='faq'>
+    <!-- <h2 id='a2'>Frequently Asked Question</h2>
+    <button onclick="myfunction()" class="dropbtn">Can I change my planat any time?</button>
+<div id="mydropdown" class="dropdown-content">
+  <a href='#'>Absolutely! You are freeto upgrade,downgrade, or delete your<br>account whenever you like</a>
+</div> -->
+<div class="dropdown">
+     <h2 id='a2'>Frequently Asked Question</h2>
+     <div id='faq'>
+     <div id='faq1'>
+    <button onclick="myFunction()" class="dropbtn">Can I change my planat any time? +</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#home">Absolutely! You are freeto upgrade,downgrade, or delete<br> youraccount whenever you like</a>
+      
+    </div>
+    <br><br>
+    <button onclick="myFunction2()" class="dropbtn2">Can we add more emails after my email quota?</button>
+    <div id="myDropdown2" class="dropdown-content2">
+      <a href="#home2">Yes, you may buy emails as and when you need. These emails would not have our branding and do not expire</a>
+      
+    </div>
+    </div>
+</div>
+    <div id='faq2'>
+    <button onclick="myFunction3()" class="dropbtn3">Do you have any cancellation fees?</button>
+    <div id="myDropdown3" class="dropdown-content3">
+      <a href="#home3">No. We do not have any cancellation fees. You can cancel whenever you want. If you cancel, you’ll be billed for the current billing cycle, but you will not be billed again.</a>
+      
+    </div>
+    <br><br>
+    <button onclick="myFunction4()" class="dropbtn4">How frequently does the service go down?</button>
+    <div id="myDropdown4" class="dropdown-content4">
+        <a href="#home4">We offer 99.9% up time guarantee. If we have to take it down for routine maintenance and updates, it would happen with prior notice and very rarely.</a>
+        
+      </div>
+    </div>
+    
+    
+  </div>
 </div>
 <script>
     var btn=document.getElementById('colorchange')
@@ -159,6 +208,24 @@
     btn2.addEventListener('click',randomcolor2)
     btn3.addEventListener('click',randomcolor3)
     btn4.addEventListener('click',randomcolor4)
+// faq************************************************************
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+
+}
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show");
+
+}
+function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show");
+
+}
+function myFunction4() {
+  document.getElementById("myDropdown4").classList.toggle("show");
+
+}
+
 </script>
 <!-- footer part -->
 <div class="footer">
@@ -336,6 +403,7 @@
     <p>Legal</p>
 </div>
 <!-- footer part -->
+<script src="script.js"></script>
 </body>
 </html>
 
