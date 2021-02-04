@@ -542,13 +542,145 @@ margin-bottom: 20px;
 .right-empty{
     border-right: none!important;
 }
+.part_logo{
+    display: flex;
+}
+.hex{
+      margin-left: 45px;
+}
+.hex:nth-child(2n){
+    margin-top: 50px;
+}
+.hex>div{
+    background-color:  rgb(248, 244, 244);
+    background-size: 200px;
+    width: 4em  ;
+    height: 6.50em;
+    margin: auto;
+    margin-top: 10px;
+    transform: rotate(-60deg);
+    position: relative;
+    border-radius: 8px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 0 20px 5px rgb(35 31 32);
+    background-size: 65px;
+}
+.hex>div::before{
+    transform: rotate(-60deg);
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+    background-color:  rgb(248, 244, 244); 
+   
+}
+.hex>div::after{
+    transform: rotate(60deg);
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+    background-color:  rgb(248, 244, 244);
+}
+.gray{
+    background-color: #BECDDF!important;
+}
+.gray::before{
+    background-color: #BECDDF!important;
+}
+.gray::after{
+    background-color: #BECDDF!important;
+}
+.hex:nth-child(1)>div:nth-child(1){
+    background-image: url(https://cdn5.engagebay.com/images/zapier.png);
+}
+.hex:nth-child(1)>div:nth-child(2){
+    background-image: url(https://cdn5.engagebay.com/images/facebook.png);
+}
+.hex:nth-child(1)>div:nth-child(3){
+    background-image: url(https://cdn5.engagebay.com/images/docusign.png);
+}
+.hex:nth-child(2)>div:nth-child(2){
+    background-image: url(https://cdn5.engagebay.com/images/google.png);
+   
+}
+.hex:nth-child(2)>div:nth-child(3){
+    background-image: url(https://cdn5.engagebay.com/images/linkedin.png);
+}
+.hex:nth-child(3)>div:nth-child(1){
+    background-image: url(https://cdn5.engagebay.com/images/woocommerce.png);
+}
+.hex:nth-child(3)>div:nth-child(2){
+    background-image: url(https://cdn5.engagebay.com/images/piesync.png);
+}
+.hex:nth-child(3)>div:nth-child(4){
+    background-image: url(https://cdn5.engagebay.com/images/shopify.png);
+}
+.hex:nth-child(4)>div:nth-child(2){
+    background-image: url(https://cdn5.engagebay.com/images/stripe.png);
+}
+.hex:nth-child(4)>div:nth-child(3){
+    background-image: url(https://cdn5.engagebay.com/images/twilio.png);
+}
+.hex:nth-child(5)>div{
+    background-image: url(https://cdn5.engagebay.com/images/quickbooks.png);
+    margin-top: 290px;
+    margin-left: 20px;
+}
+.hex>div:hover{
+    background-color: white;
+    box-shadow: 0 0 20px 5px #000;
+}
+.hex>div:hover::after{
+    background-color: white;
 
+}
+.hex>div:hover::before{
+    background-color: white;
 
-
-
-
-
-
+}
+.Partners{
+    background-image: -webkit-linear-gradient(30deg,#cedde6 45%,#bccbde 42%);
+    display: grid;
+    grid-template-columns: 35% 35%;
+    justify-content: space-evenly;
+    padding-bottom: 250px;
+    padding-top: 50px;
+    color: #222;
+}
+.part_head{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+}
+.part_head h1{
+    font-size: 38px;
+    font-weight: 800;
+}
+.part_head p{
+    font-size: 26px;
+    line-height: 60px;
+}
+.part_p{
+    font-size: 23px;
+    line-height: 1.4;
+}
+.part_p >a{
+    background-color: #fa7241;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+}
 
 
 
