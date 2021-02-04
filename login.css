@@ -1,0 +1,380 @@
+#mainCont {
+    width: 100%;
+    display: flex;
+    margin: 0%;
+}
+.cont1 {
+    width: 35%;
+    height: 44vw;
+    margin: 0%;
+}
+.box1 {
+    width: 60%;
+    margin: auto;
+    margin-top: 11%;
+    font-size: 40px;
+    text-align: center;
+}
+.box1 > img {
+    width: 90%;
+    height: 2vw;
+}
+.cont1 > div:nth-child(2) {
+    margin-top: 4%;
+}
+.cont2 {
+    width: 65%;
+    background-color: blue;
+    height:44vw;
+}
+form > div:nth-child(n) {
+    font-size: 18px;
+    width: 80%;
+    text-align: left;
+    margin-top: 9%;
+}
+form > div:nth-child(2) {
+    margin-top: 4%;
+}
+form > div:nth-child(n) > input {
+    width: 100%;
+    height: 3vw;
+    margin-top: 3%;
+    padding-left: 2%;
+    border-color: white;
+}
+.btn {
+    width: 82.6%;
+   
+    margin: auto;
+    margin-left: 10%;
+}
+.btn > button {
+    width: 100%;
+    height: 3.7vw;
+    margin-top: 8%;
+    background-color:#dc3545;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn2 {
+    display: grid;
+    grid-template-rows: 4vw;
+    grid-template-columns: 20% 80%;
+    width: 82%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.btn2 > div:nth-child(1) > img {
+    width: 90%;
+    height: 2.4vw;
+    margin-top: 12%;
+}
+.btn2 > div:nth-child(1) {
+    border: 1px solid rgb(18, 151, 204);
+}
+.btn2 > div:nth-child(2) > button {
+    width: 100%;
+    height: 4vw;
+   background-color: rgb(18, 151, 204);
+   border: 0px;
+   color: white;
+   font-weight: bold;
+}
+.cont1 > div:nth-child(4) {
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #mainCont {
+        width: 100%;
+    }
+    .cont1 {
+        width: 100%;
+        height: 44vw;
+    }
+    .cont2 {
+        width: 0%;
+    }
+    .box1 {
+        width: 40%;
+        font-size: 35px;
+        margin-top: 6%;
+    }
+    .box1 > img {
+        width: 100%;
+        height: 6vw;
+    }
+    form > div:nth-child(n) > input {
+        width: 93%;
+        height: 6vw;
+    }
+    .btn > button {
+        width: 90%;
+        height: 7vw;
+        margin-top: 8%;
+        color: white;
+        font-size: 15px;
+    }
+    form > div:nth-child(n) {
+        width: 80%;
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 90%;
+        height: 7vw;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 7vw;
+        grid-template-columns: 20% 80%;
+        margin-top: 3%;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 70%;
+        height: 4vw;
+        margin-top: 10%;
+        margin-left: 6%;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #mainCont {
+        width: 100%;
+    }
+    .cont1 {
+        width: 100%;
+        height: 44vw;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 42px;
+        margin-top: 3%;
+    }
+    .cont2 {
+        width: 0%;
+    }
+    .box1 {
+        width: 30%;
+        font-size: 30px;
+        margin-top: 6%;
+    }
+    .name_box {
+        width: 50%;
+    }
+    .box1 > img {
+        width: 100%;
+        height: 5vw;
+    }
+    form > div:nth-child(n) > input {
+        width: 92%;
+        height: 5vw;
+    }
+    .btn > button {
+        width: 93%;
+        height: 6vw;
+        margin-top: 8%;
+        color: white;
+        font-size: 15px;
+    }
+    form > div:nth-child(n) {
+        width: 50%;
+        margin-top: 3%;
+        height: 8vw;
+        border: 0px;
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 90%;
+        height: 6vw;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 6vw;
+        grid-template-columns: 20% 80%;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 80%;
+        height: 4vw;
+        margin-top: 7%;
+    }
+    .btn {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #mainCont {
+        width: 100%;
+    }
+    .cont1 {
+        width: 100%;
+        height: 44vw;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 42px;
+        margin-top: 3%;
+    }
+    .cont2 {
+        width: 0%;
+    }
+    .box1 {
+        width: 30%;
+        font-size: 30px;
+        margin-top: 6%;
+    }
+    .box1 > img {
+        width: 60%;
+        height: 3vw;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 39px;
+        margin-top: 0.5%;
+    }
+    form > div:nth-child(n) > input {
+        width: 92%;
+        height: 4vw;
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 90%;
+        height: 5vw;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 5vw;
+        grid-template-columns: 15% 85%;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+    .btn > button {
+        width: 93%;
+        height: 5vw;
+        margin-top: 3%;
+        color: white;
+        font-size: 15px;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 70%;
+        height: 3vw;
+        margin-top: 12%;
+        margin-left: 8%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #mainCont {
+        width: 100%;
+        display: flex;
+        margin: 0%;
+    }
+    .cont1 {
+        width: 33%;
+        margin: 0%;
+    }
+    .box1 {
+        width: 60%;
+        margin: auto;
+        margin-top: 8%;
+        font-size: 40px;
+        text-align: center;
+    }
+    .box1 > img {
+        width: 100%;
+        height: 3vw;
+    }
+    .cont1 > div:nth-child(2) {
+        margin-top: 4%;
+    }
+    .cont2 {
+        width: 67%;
+        background-color: blue;
+        height:57vw;
+    }
+    form > div:nth-child(n) {
+        font-size: 18px;
+        width: 80%;
+        text-align: left;
+        margin-top: 10%;
+    }
+    form > div:nth-child(2) {
+        margin-top: 9%;
+    }
+    form > div:nth-child(n) > input {
+        width: 98%;
+        height: 5vw;
+        margin-top: 3%;
+        padding-left: 2%;
+        border-color: white;
+    }
+    .btn {
+        width: 82.6%;
+        margin: auto;
+        margin-left: 10%;
+    }
+    .btn > button {
+        width: 100%;
+        height: 5vw;
+        margin-top: 17%;
+        background-color:#dc3545;
+        border: 0px;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 5vw;
+        grid-template-columns: 15% 85%;
+        width: 82%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 90%;
+        height: 2.4vw;
+        margin-top: 27%;
+    }
+    .btn2 > div:nth-child(1) {
+        border: 1px solid rgb(18, 151, 204);
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 100%;
+        height: 5vw;
+       background-color: rgb(18, 151, 204);
+       border: 0px;
+       color: white;
+       font-weight: bold;
+    }
+    .cont1 > div:nth-child(4) {
+        text-align: center;
+        margin-top: 10%;
+        line-height: 25px;
+        font-size: 16px;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1040px) {
+    .box1 > img {
+        width: 100%;
+        height: 2.5vw;
+    }
+    form > div:nth-child(n) > input {
+        height: 4vw;
+    }
+    .btn > button {
+        height: 4vw;
+    }
+    
+}
