@@ -1,0 +1,82 @@
+.pr.title1{
+    color: #55575a
+}
+h1.pr-title1 {
+    margin-left: 219px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+h3.pr-title2 {
+    margin-left: 192px;
+    font-weight: 500;
+    font-size: 26px;
+}
+.pr-title {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.pricing-tabs2>div{
+/* border:1px solid red; */
+width:285px;
+height:100px;
+margin-right: 0px;
+ background-color: #e9e9f0;
+ /* border-top: 2px solid blue; */
+}
+.pricing-tabs2{
+    display: flex;
+    margin-left:100px;
+    margin-right:100px;
+}
+.pricing-tabs3>p {
+    margin-top: 32px;
+    margin-left: 75px;
+    font-size: 20px;
+    color:#0067b8
+    
+}
+h6 {
+    margin-top: -15px;
+    margin-left: 76px;
+    color:#0067b8
+}
+.time {
+    border: 1px solid red;
+    height: 52px;
+    width: 439px;
+    margin-left: 500px;
+    margin-top: 34px;
+    border-radius: 50px;
+    padding-left: 15px;
+    padding-top: 7px;
+    margin-bottom: 19px;
+    background-color: #e9e9f0;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #e9e9f0;
+    border:1px solid  #e9e9f0;
+    
+}
+#members{
+    border:1px solid red;
+    width:1300px;
+    height:450px;
+    margin:20px;
+    background-image:url("bg-boxed-light-01.jpg");
+}
+#d1 {
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 545px;
+}
+p#tes1 {
+    margin-top: 150px;
+    margin-left: 338px;
+}
