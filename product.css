@@ -153,15 +153,17 @@
     border-radius: 50%;
     margin: auto;
     margin-top: -35px;
+    
 }
 .boxImg>img{
-    width: 95px;
+    width: 80px;
+    padding-top: 10px;
 }
 .link{
     padding-left: 20px;
     padding-right: 20px;
     text-align: left;
-    color: #0067b8;
+    
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 10px;
@@ -177,7 +179,7 @@
 .boxB{
     color: #656565;
     font-size: 18px;
-    padding: 20px 20px;
+    padding: 20px 42px;
 }
 .boxL{
     border-top:1px solid #e2e6ea ;
@@ -213,6 +215,12 @@
     margin-bottom: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-
+}
+.container3{
+    background: transparent url(//cdn5.engagebay.com/images/bg-boxed-light-01.jpg) 0% 0%/auto repeat scroll;
+    margin-left: -14px;
+    margin-right: -14px;
+}
+a{
+    text-decoration : none!important;
 }

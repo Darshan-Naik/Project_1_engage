@@ -1,0 +1,86 @@
+.resourses{
+    background-color: #fff;
+
+}
+.Heading{
+    padding: 90px 0;
+    margin: auto;
+    width: 1200px;
+
+}
+h1{
+    color:#2f2c2c;
+    font-size: 38px!important;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+h5{
+    font-size: 19px;
+    margin: 0 0 7px;
+    color:#2f2c2c;
+    font-weight: bold;
+    text-align: center;
+
+}
+.grid{
+    text-align: center;
+    max-width: 1320px;
+    margin: auto;
+    gap: 25px;
+    display:grid;
+    grid-template: "b1 b2 b3"
+    "b4 b5 b6"
+    "b7 b8";
+}
+#box1{
+    grid-area: b1;
+}
+#box2{
+    grid-area: b2;
+}
+#box3{
+    grid-area: b3;
+}
+#box4{
+    grid-area: b4;
+}
+#box5{
+    grid-area: b5;
+}
+#box6{
+    grid-area: b6;
+}
+#box7{
+    grid-area: b7;
+}
+#box8{
+    grid-area: b8;
+}
+img{
+    width: 330px;
+}
+h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+    line-height: 1;
+    color: #6f6f6f;
+    text-align: center;
+}
+p{
+    font-size: 16px;
+    color: #252525;
+    font-weight: 400;
+    padding: 30px 20px;
+    line-height: 24px;
+    text-align: center;
+}
+.readMore{
+    color: #0067b8;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 30px 20px;
+}
