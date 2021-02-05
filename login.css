@@ -103,7 +103,7 @@ form > div:nth-child(n) > input {
     .box1 {
         width: 40%;
         font-size: 35px;
-        margin-top: 6%;
+        margin-top: 4%;
     }
     .box1 > img {
         width: 100%;
@@ -114,6 +114,7 @@ form > div:nth-child(n) > input {
         height: 9vw;
         border: 1px solid rgb(214, 210, 210);
         border-radius: 3px;
+        margin-top: 0px;
     }
     .btn > button {
         width: 90%;
@@ -141,9 +142,16 @@ form > div:nth-child(n) > input {
     }
     .btn2 > div:nth-child(1) > img {
         width: 70%;
-        height: 4vw;
-        margin-top: 10%;
+        height: 5vw;
+        margin-top: 15%;
         margin-left: 6%;
+    }
+    .lastlineText{
+        font-size: 12.6px;
+        line-height: 25px;
+    }
+    .btn {
+        margin-top: 15px;
     }
 } 
 
@@ -283,9 +291,9 @@ form > div:nth-child(n) > input {
         width: 400px;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 70%;
-        height: 4vw;
-        margin-top: 10%;
+        width: 78%;
+        height: 3vw;
+        margin-top: 11%;
         margin-left: 6%;
     }
 } 
@@ -375,7 +383,7 @@ form > div:nth-child(n) > input {
         width: 82.6%;
         margin: auto;
         margin-left: 10%;
-        margin-top: 10px;
+        margin-top: 0%;
     }
     .btn > button {
         width: 100%;
@@ -389,16 +397,17 @@ form > div:nth-child(n) > input {
     }
     .btn2 {
         display: grid;
-        grid-template-rows: 4vw;
-        grid-template-columns: 15% 85%;
+        grid-template-rows: 5vw;
+        grid-template-columns: 18% 82%;
         width: 82%;
         margin-left: 10%;
         margin-top: 5%;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 90%;
-        height: 2.4vw;
-        margin-top: 27%;
+        width: 100%;
+        height: 3.2vw;
+        margin-top: 23%;
+        margin-left: 0px;
     }
     .btn2 > div:nth-child(1) {
         border: 1px solid rgb(18, 151, 204);
@@ -436,6 +445,7 @@ form > div:nth-child(n) > input {
         grid-template-rows: 8vw;
         grid-template-columns: 20% 80%;
     }
+    
 } 
 
 /* Extra large devices (large laptops and desktops, 1032px and up) */
@@ -443,6 +453,12 @@ form > div:nth-child(n) > input {
     .box1 > img {
         width: 88%;
         height: 3vw;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 100%;
+        height: 2.7vw;
+        margin-top: 23%;
+        margin-left: 0px;
     }
     form > div:nth-child(n) > input {
         height: 4.5vw;
@@ -573,7 +589,7 @@ form > div:nth-child(n) > input {
     }
     .btn2 {
         grid-template-rows: 49px;
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 15% 85%;
         margin-top: 4%;
     }
     .cont2 > div:nth-child(1) {
@@ -607,10 +623,10 @@ form > div:nth-child(n) > input {
         margin-left: 50px;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 92%;
-        height: 3vw;
+        width: 98%;
+        height: 2.5vw;
         margin-top: 17%;
-        margin-left: 7%;
+        margin-left: 2%;
         border-radius: 30px;
     }
     .media {
@@ -658,7 +674,7 @@ form > div:nth-child(n) > input {
         border-radius: 3px;
     }
     .btn2 > div:nth-child(1){
-       height: 3.7vw;
+       height: 3.6vw;
     }
     .btn {
         margin-top: 0.5vw;
@@ -674,7 +690,7 @@ form > div:nth-child(n) > input {
         margin-left: 35%;
     }
     .btn2 > div:nth-child(2) > button {
-        height: 3.8vw;
+        height: 3.7vw;
     }
     .btn2 {
         grid-template-rows: 3vw;
@@ -696,7 +712,7 @@ form > div:nth-child(n) > input {
         border: 5px solid #4671ce;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 85.8%;
+        width: 92%;
         height: 2vw;
         margin-top: 22%;
         margin-left: 8%;
