@@ -219,7 +219,7 @@
 a{
     text-decoration : none!important;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 992px){
     .container2{
         display: grid;
         grid-template: "b1"
@@ -227,6 +227,8 @@ a{
         "b3";
 
     }
+    
+    
     .box1,.box2,.box3{
         margin-bottom: 100px;
     }
@@ -240,12 +242,31 @@ a{
         "b3";
 
     }
+    .contLeft{
+        text-align: center;
+        min-width: 570px;
+        margin-left: 20px;
+        margin: auto;
+        margin-bottom: 0!important;
+        float: left;
+        
+    }
+    .container{
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+       
+        display: flex;
+    
+    }
     .box1,.box2,.box3{
         margin-bottom: 100px;
     }
-    .tryItout{
-        display: none;
+    .tryItout,.checkBox1,.checkBox2{
+        display: block;
+        flex: 0;
     }
     
+
     
 }
