@@ -8,7 +8,7 @@
     width: 1200px;
 
 }
-h1{
+.top1{
     color:#2f2c2c;
     font-size: 38px!important;
     text-align: center;
@@ -16,7 +16,7 @@ h1{
     margin-bottom: 0;
 
 }
-h5{
+.top5{
     font-size: 19px;
     margin: 0 0 7px;
     color:#2f2c2c;
@@ -24,7 +24,7 @@ h5{
     text-align: center;
 
 }
-.grid{
+#grid11{
     text-align: center;
     max-width: 1320px;
     margin: auto;
@@ -32,7 +32,7 @@ h5{
     display:grid;
     grid-template: "b1 b2 b3"
     "b4 b5 b6"
-    "b7 b8";
+    "b7 b8 b9";
 }
 #box1{
     grid-area: b1;
@@ -58,17 +58,17 @@ h5{
 #box8{
     grid-area: b8;
 }
-img{
+.Img{
     width: 330px;
 }
-h4{
+.Top4{
     font-size: 30px;
     margin-bottom: 20px;
     line-height: 1;
     color: #6f6f6f;
     text-align: center;
 }
-p{
+.TopP{
     font-size: 16px;
     color: #252525;
     font-weight: 400;
