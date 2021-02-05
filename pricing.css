@@ -20,7 +20,7 @@ h3.pr-title2 {
 }
 .pricing-tabs2>div{
 /* border:1px solid red; */
-width:285px;
+width:25%;
 height:100px;
 margin-right: 0px;
  background-color: #e9e9f0;
@@ -28,8 +28,9 @@ margin-right: 0px;
 }
 .pricing-tabs2{
     display: flex;
-    margin-left:100px;
-    margin-right:100px;
+    margin-left:50px;
+    margin-right:68px;
+    border:1px solid red
 }
 .pricing-tabs3>p {
     margin-top: 32px;
@@ -66,9 +67,11 @@ button {
 }
 #members{
     border:1px solid red;
-    width:1300px;
+    width:100%;
     height:450px;
-    margin:20px;
+    margin-top: 279px;
+    /* margin-left:50px;
+    margin-right:68px ; */
     background-image:url("bg-boxed-light-01.jpg");
 }
  #d1 {
@@ -101,7 +104,7 @@ div#a1 {
     cursor: pointer;
     width:500px;
     height:50px;
-    margin-left: 200px;
+    margin-left: 100px;
     border: none;
   }
   
@@ -146,7 +149,7 @@ div#a1 {
     cursor: pointer;
     width:500px;
     height:50px;
-    margin-left: 200px;
+    margin-left: 100px;
     border: none;
   }
   
@@ -191,7 +194,7 @@ div#a1 {
     cursor: pointer;
     width:500px;
     height:50px;
-    margin-left: 100px;
+    margin-right: 100px;
     border: none;
   }
   
@@ -255,7 +258,7 @@ div#a1 {
     cursor: pointer;
     width:500px;
     height:50px;
-    margin-left: 100px;
+    margin-right: 100px;
     border: none;
   }
   
@@ -290,3 +293,135 @@ div#a1 {
   .dropdown4 a:hover {background-color: #ddd;}
   
   .show {display: block;}
+
+  div#plans {
+    width: 1260px;
+    height: 600px;
+    /* border: 1px solid red; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#plan1,#plan2,#plan3,#plan4{
+    border:1px solid red;
+    width:23%;
+    height:765px;
+    margin-right:20px;
+    margin-top: 30px;
+    float:left
+}
+#a10{
+    height:15%;
+     /* background-color: red;  */
+     margin-top: -33px;
+    /* color:red; */
+    /* font-size: 40px; */
+    /* margin-left: 40px; */
+}
+#a11{
+    height:11%;
+     background-color:#f5f4f7; 
+     margin-top: -31px;
+}
+#a12{
+    height:11%;
+    /* background-color:yellow; */
+}
+#a13{
+    height:45%;
+    /* background-color:chartreuse; */
+ 
+    margin-top: 53px;
+}
+#a14{
+    
+    height: 10%;
+    color: blue;
+    margin-top: 24px;
+    margin-left: 75px;
+}
+#a15{
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-left: 83px;
+    margin-top: 51px;
+    margin-bottom: 30px;
+}
+#a16{
+    color: #b3b3b3;
+    font-size: 1.5rem;
+    margin-top: -74px;
+    margin-left: 133px;
+}
+#a17{
+    color:black;
+    font-size: 19px;
+    font-weight: 400;
+    margin-left: 102px;
+    margin-top: 10px;
+}
+#a18{
+    color: black;
+    font-size: 1rem;
+     margin-top: -7px; 
+    margin-left: 81px;
+    /* background-color:#f5f4f7; */
+}
+h3.a19 {
+    margin-top: 18px;
+    margin-left: 113px;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.a20{
+    background-color: white;
+    margin-left: 69px;
+    height: 40px;
+    margin-top: -24px;
+    border:1px solid #693f93;
+}
+#tick{
+    width:20px;
+    margin-top: -1px;
+    margin-left: 10px;
+}
+
+p#\32 1 {
+    margin-left: 39px;
+    margin-top: -29px;
+}
+/* #a14 {
+    height: 10%;
+    color: blue;
+    margin-top: -8px;
+    margin-left: 75px;
+    background-color: white;
+} */
+
+p#a21 {
+    margin-left: 199px;
+    margin-top: -64px;
+}
+p#a22 {
+    margin-left: 105px;
+    margin-top: -34px;
+}
+
+p#\32 3 {
+    font-size: 20px;
+    color: black;
+    margin-left: 16px;
+}
+p#a30 {
+    margin-left: 219px;
+    margin-top: -66px;
+}
+img#d1 {
+  margin-top: 20px;
+}
+h5.name2 {
+  margin-left: 577px;
+}
+h6.designation2 {
+  margin-left: 500px;
+}
