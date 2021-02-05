@@ -565,7 +565,7 @@ form > div:nth-child(n) > input {
     /* Extra large devices (large laptops and desktops, 1365px and up) */
 @media only screen and (min-width: 1365px) {
     .box1 > img {
-        width: 83%;
+        width: 80%;
         height: 2vw;
     }
     form > div:nth-child(n) > input {
@@ -605,7 +605,7 @@ form > div:nth-child(n) > input {
     }
     .box1 {
         margin-top: 2vw;
-        font-size: 20px;
+        font-size: 15px;
     }
     form > div:nth-child(2) {
         margin-top: 1%;
@@ -651,5 +651,8 @@ form > div:nth-child(n) > input {
     }
     .mediatext {
         line-height: 20px;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 21px;
     }
 }
