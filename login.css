@@ -2,6 +2,9 @@
     font-family: 'Poppins',sans-serif!important;
     line-height: 1.5;
 }
+::placeholder {
+    color: rgb(202, 195, 195)
+}
 #mainCont {
     width: 100%;
     display: flex;
