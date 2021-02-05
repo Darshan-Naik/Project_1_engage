@@ -99,6 +99,7 @@ form > div:nth-child(n) > input {
     }
     .cont2 {
         width: 0%;
+        display: none;
     }
     .box1 {
         width: 40%;
@@ -112,6 +113,8 @@ form > div:nth-child(n) > input {
     form > div:nth-child(n) > input {
         width: 93%;
         height: 6vw;
+        border: 1px solid rgb(214, 210, 210);
+        border-radius: 3px;
     }
     .btn > button {
         width: 90%;
@@ -119,6 +122,7 @@ form > div:nth-child(n) > input {
         margin-top: 8%;
         color: white;
         font-size: 15px;
+        border-radius: 3px;
     }
     form > div:nth-child(n) {
         width: 80%;
@@ -156,6 +160,7 @@ form > div:nth-child(n) > input {
     }
     .cont2 {
         width: 0%;
+        display: none;
     }
     .box1 {
         width: 30%;
@@ -172,6 +177,8 @@ form > div:nth-child(n) > input {
     form > div:nth-child(n) > input {
         width: 92%;
         height: 5vw;
+        border: 1px solid rgb(202, 199, 199);
+        border-radius: 3px;
     }
     .btn > button {
         width: 93%;
@@ -179,6 +186,7 @@ form > div:nth-child(n) > input {
         margin-top: 8%;
         color: white;
         font-size: 15px;
+        border-radius: 3px;
     }
     form > div:nth-child(n) {
         width: 50%;
@@ -226,6 +234,7 @@ form > div:nth-child(n) > input {
     }
     .cont2 {
         width: 0%;
+        display: none;
     }
     .box1 {
         width: 30%;
@@ -305,6 +314,7 @@ form > div:nth-child(n) > input {
         background-repeat: no-repeat;
         background-position: center;
         background-position: bottom;
+        display: initial;
     }
     form > div:nth-child(n) {
         font-size: 18px;
@@ -321,6 +331,8 @@ form > div:nth-child(n) > input {
         margin-top: 3%;
         padding-left: 2%;
         border-color: white;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 3px;
     }
     .btn {
         width: 82.6%;
@@ -367,7 +379,7 @@ form > div:nth-child(n) > input {
         line-height: 25px;
         font-size: 16px;
     }
-    .cont2 > div > img {
+    .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
@@ -385,7 +397,12 @@ form > div:nth-child(n) > input {
         margin: 10px;
         margin-left: 18%;
         border-radius: 1%;
-        display: flex;
+        color: white;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 8vw;
+        grid-template-columns: 20% 80%;
     }
 } 
 
@@ -397,6 +414,8 @@ form > div:nth-child(n) > input {
     }
     form > div:nth-child(n) > input {
         height: 4.5vw;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 3px;
     }
     form > div:nth-child(2), div:nth-child(4) {
         margin-top: 4%;
@@ -420,6 +439,7 @@ form > div:nth-child(n) > input {
         background-repeat: no-repeat;
         background-position: center;
         background-position: bottom;
+        display: initial;
     }
     .box1 {
         margin-top: 4vw;
@@ -439,18 +459,22 @@ form > div:nth-child(n) > input {
         margin: 10px;
         margin-left: 18%;
         border-radius: 1%;
-        display: flex;
+        color: white;
     }
-    .cont2 > div > img {
+    .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
         border: 4px solid rgb(29, 29, 219);
-        flex-grow: 4;
     }
     .cont2 > div > p > i {
         margin-left: 50px;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 8vw;
+        grid-template-columns: 20% 80%;
     }
 }
     /* Extra large devices (large laptops and desktops, 1080px and up) */
@@ -461,6 +485,8 @@ form > div:nth-child(n) > input {
     }
     form > div:nth-child(n) > input {
         height: 4vw;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 3px;
     }
     form > div:nth-child(2), div:nth-child(4) {
         margin-top: 1%;
@@ -478,12 +504,12 @@ form > div:nth-child(n) > input {
     .cont2 {
         width: 67%;
         background-color: blue;
-        height:56.5vw;
         background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
         background-repeat: no-repeat;
         background-position: center;
         background-position: bottom;
+        display: initial;
     }
     .box1 {
         margin-top: 4vw;
@@ -506,15 +532,15 @@ form > div:nth-child(n) > input {
         margin: 10px;
         margin-left: 18%;
         border-radius: 1%;
-        display: flex;
+        color: white;
     }
-    .cont2 > div > img {
+    .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
         border: 4px solid rgb(29, 29, 219);
-        flex-grow: 4;
+        
     }
     .cont2 > div > p > i {
         margin-left: 50px;
@@ -525,9 +551,14 @@ form > div:nth-child(n) > input {
         margin-top: 20%;
         margin-left: 8%;
     }
+    .media {
+        display: grid;
+        grid-template-rows: 8vw;
+        grid-template-columns: 20% 80%;
+    }
 }
  
-    /* Extra large devices (large laptops and desktops, 1125px and up) */
+    /* Extra large devices (large laptops and desktops, 1365px and up) */
 @media only screen and (min-width: 1365px) {
     .box1 > img {
         width: 83%;
@@ -535,6 +566,9 @@ form > div:nth-child(n) > input {
     }
     form > div:nth-child(n) > input {
         height: 3vw;
+        border: 1px solid rgb(221, 218, 218);
+        color: hsl(0, 17%, 93%);
+        border-radius: 3px;
     }
     form > div:nth-child(2), div:nth-child(4) {
         margin-top: 1%;
@@ -545,6 +579,7 @@ form > div:nth-child(n) > input {
     .btn > button {
         height: 3vw;
         margin-top: 1.7%;
+        border-radius: 3px;
     }
     .btn {
         margin-top: 0.5vw;
@@ -558,6 +593,8 @@ form > div:nth-child(n) > input {
         background-repeat: no-repeat;
         background-position: center;
         background-position: bottom;
+        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
+        display:initial;
     }
     .box1 {
         margin-top: 2vw;
@@ -574,27 +611,39 @@ form > div:nth-child(n) > input {
         margin-top: 4%;
     }
     .cont2 > div {
-        width: 80%;
+        width: 83%;
         background-color:rgb(42, 42, 218);
-        height: 10vw;
         margin: 10px;
-        margin-left: 18%;
+        margin-left: 15%;
         border-radius: 1%;
-        display: flex;
         color: white;
+        height: 8vw;
     }
-    .cont2 > div > img {
-        width: 70px;
-        height: 70px;
+    .media > div > img {
+        width: 65px;
+        height: 65px;
         border-radius: 50%;
-        margin: 15px;
+        margin: 18px;
         border: 4px solid rgb(29, 29, 219);
-        flex-grow: 4;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 70%;
+        width: 80%;
         height: 2vw;
-        margin-top: 7%;
+        margin-top: 8%;
         margin-left: 8%;
+        margin-right: 3px;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 5vw;
+        grid-template-columns: 15% 80%;
+        padding-top: 8px;
+    }
+    .mediatext > i {
+        margin-left: 135px;
+        margin-top: 10px;
+    }
+    .mediatext {
+        line-height: 20px;
     }
 }
