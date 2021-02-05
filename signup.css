@@ -1,57 +1,348 @@
- #mainCont {
+#mainCont {
+    width: 100%;
+    display: flex;
+    margin: 0%;
+}
+.cont1 {
+    width: 35%;
+    height: 44vw;
+    margin: 0%;
+}
+.box1 {
+    width: 60%;
+    margin: auto;
+    margin-top: 11%;
+    font-size: 40px;
+    text-align: center;
+}
+.box1 > img {
+    width: 90%;
+    height: 2vw;
+}
+.cont1 > div:nth-child(2) {
+    margin-top: 4%;
+}
+.cont2 {
+    width: 65%;
+    background-color: blue;
+    height:44vw;
+}
+form > div:nth-child(n) {
+    font-size: 18px;
+    width: 80%;
+    text-align: left;
+    margin-top: 9%;
+}
+form > div:nth-child(2) {
+    margin-top: 4%;
+}
+form > div:nth-child(n) > input {
+    width: 100%;
+    height: 3vw;
+    margin-top: 3%;
+    padding-left: 2%;
+    border-color: white;
+}
+.btn {
+    width: 82.6%;
+   
+    margin: auto;
+    margin-left: 10%;
+}
+.btn > button {
+    width: 100%;
+    height: 3.7vw;
+    margin-top: 8%;
+    background-color:#dc3545;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btn2 {
+    display: grid;
+    grid-template-rows: 4vw;
+    grid-template-columns: 20% 80%;
+    width: 82%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.btn2 > div:nth-child(1) > img {
+    width: 90%;
+    height: 2.4vw;
+    margin-top: 12%;
+}
+.btn2 > div:nth-child(1) {
+    border: 1px solid rgb(18, 151, 204);
+}
+.btn2 > div:nth-child(2) > button {
+    width: 100%;
+    height: 4vw;
+   background-color: rgb(18, 151, 204);
+   border: 0px;
+   color: white;
+   font-weight: bold;
+}
+.cont1 > div:nth-child(4) {
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #mainCont {
         width: 100%;
     }
     .cont1 {
-        width: 35%;
-        height: 50vw;
+        width: 100%;
+        height: 44vw;
+    }
+    .cont2 {
+        width: 0%;
+        display: none;
+    }
+    .box1 {
+        width: 40%;
+        font-size: 35px;
+        margin-top: 6%;
+    }
+    .box1 > img {
+        width: 100%;
+        height: 6vw;
+    }
+    form > div:nth-child(n) > input {
+        width: 93%;
+        height: 6vw;
+        border: 1px solid rgb(214, 210, 210);
+        border-radius: 3px;
+    }
+    .btn > button {
+        width: 90%;
+        height: 7vw;
+        margin-top: 8%;
+        color: white;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    form > div:nth-child(n) {
+        width: 80%;
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 90%;
+        height: 7vw;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 7vw;
+        grid-template-columns: 20% 80%;
+        margin-top: 3%;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 70%;
+        height: 4vw;
+        margin-top: 10%;
+        margin-left: 6%;
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #mainCont {
+        width: 100%;
+    }
+    .cont1 {
+        width: 100%;
+        height: 44vw;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 42px;
+        margin-top: 3%;
+    }
+    .cont2 {
+        width: 0%;
+        display: none;
+    }
+    .box1 {
+        width: 30%;
+        font-size: 30px;
+        margin-top: 6%;
+    }
+    .name_box {
+        width: 50%;
+    }
+    .box1 > img {
+        width: 100%;
+        height: 5vw;
+    }
+    form > div:nth-child(n) > input {
+        width: 92%;
+        height: 5vw;
+        border: 1px solid rgb(202, 199, 199);
+        border-radius: 3px;
+    }
+    .btn > button {
+        width: 93%;
+        height: 6vw;
+        margin-top: 8%;
+        color: white;
+        font-size: 15px;
+        border-radius: 3px;
+    }
+    form > div:nth-child(n) {
+        width: 50%;
+        margin-top: 3%;
+        height: 8vw;
+        border: 0px;
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 90%;
+        height: 6vw;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 6vw;
+        grid-template-columns: 20% 80%;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 80%;
+        height: 4vw;
+        margin-top: 7%;
+    }
+    .btn {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 3%;
+    }
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #mainCont {
+        width: 100%;
+    }
+    .cont1 {
+        width: 100%;
+        height: 44vw;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 42px;
+        margin-top: 3%;
+    }
+    .cont2 {
+        width: 0%;
+        display: none;
+    }
+    .box1 {
+        width: 30%;
+        font-size: 30px;
+        margin-top: 6%;
+    }
+    .box1 > img {
+        width: 60%;
+        height: 3vw;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 39px;
+        margin-top: 0.5%;
+    }
+    form > div:nth-child(n) > input {
+        width: 92%;
+        height: 4vw;
+    }
+    .btn2 > div:nth-child(2) > button {
+        width: 90%;
+        height: 5vw;
+    }
+    .btn2 {
+        display: grid;
+        grid-template-rows: 5vw;
+        grid-template-columns: 15% 85%;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2%;
+    }
+    .btn > button {
+        width: 93%;
+        height: 5vw;
+        margin-top: 3%;
+        color: white;
+        font-size: 15px;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 70%;
+        height: 3vw;
+        margin-top: 12%;
+        margin-left: 8%;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #mainCont {
+        width: 100%;
+        display: flex;
         margin: 0%;
-        border: 2px solid black;
+    }
+    .cont1 {
+        width: 33%;
+        margin: 0%;
     }
     .box1 {
         width: 60%;
         margin: auto;
-        margin-top: 11%;
+        margin-top: 8%;
         font-size: 40px;
         text-align: center;
     }
     .box1 > img {
-        width: 90%;
-        height: 2vw;
+        width: 100%;
+        height: 3vw;
     }
     .cont1 > div:nth-child(2) {
         margin-top: 4%;
     }
     .cont2 {
-        width: 65%;
+        width: 67%;
         background-color: blue;
-        height:44vw;
+        height:60.1vw;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
+        display: initial;
     }
     form > div:nth-child(n) {
         font-size: 18px;
         width: 80%;
         text-align: left;
-        margin-top: 9%;
+        margin-top: 10%;
     }
     form > div:nth-child(2) {
-        margin-top: 4%;
+        margin-top: 9%;
     }
     form > div:nth-child(n) > input {
-        width: 100%;
-        height: 3vw;
+        width: 98%;
+        height: 5vw;
         margin-top: 3%;
         padding-left: 2%;
         border-color: white;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 3px;
     }
     .btn {
         width: 82.6%;
-       
         margin: auto;
         margin-left: 10%;
     }
     .btn > button {
         width: 100%;
-        height: 3.7vw;
-        margin-top: 8%;
+        height: 5vw;
+        margin-top: 17%;
         background-color:#dc3545;
         border: 0px;
         color: white;
@@ -60,8 +351,8 @@
     }
     .btn2 {
         display: grid;
-        grid-template-rows: 4vw;
-        grid-template-columns: 20% 80%;
+        grid-template-rows: 5vw;
+        grid-template-columns: 15% 85%;
         width: 82%;
         margin-left: 10%;
         margin-top: 5%;
@@ -69,14 +360,14 @@
     .btn2 > div:nth-child(1) > img {
         width: 90%;
         height: 2.4vw;
-        margin-top: 12%;
+        margin-top: 27%;
     }
     .btn2 > div:nth-child(1) {
         border: 1px solid rgb(18, 151, 204);
     }
     .btn2 > div:nth-child(2) > button {
         width: 100%;
-        height: 4vw;
+        height: 5vw;
        background-color: rgb(18, 151, 204);
        border: 0px;
        color: white;
@@ -84,516 +375,275 @@
     }
     .cont1 > div:nth-child(4) {
         text-align: center;
+        margin-top: 10%;
+        line-height: 25px;
+        font-size: 16px;
     }
-    
-    
-    /* Extra small devices (phones, 600px and down) */
-   /*  @media only screen and (max-width: 600px) {
-        #mainCont {
-            width: 100%;
-        }
-        .cont1 {
-            width: 100%;
-            height: 44vw;
-        }
-        .cont2 {
-            width: 0%;
-        }
-        .box1 {
-            width: 40%;
-            font-size: 35px;
-            margin-top: 6%;
-        }
-        .box1 > img {
-            width: 100%;
-            height: 6vw;
-        }
-        form > div:nth-child(n) > input {
-            width: 93%;
-            height: 6vw;
-        }
-        .btn > button {
-            width: 90%;
-            height: 7vw;
-            margin-top: 8%;
-            color: white;
-            font-size: 15px;
-        }
-        form > div:nth-child(n) {
-            width: 80%;
-        }
-        .btn2 > div:nth-child(2) > button {
-            width: 90%;
-            height: 7vw;
-        }
-        .btn2 {
-            display: grid;
-            grid-template-rows: 7vw;
-            grid-template-columns: 20% 80%;
-            margin-top: 3%;
-        }
-        .btn2 > div:nth-child(1) > img {
-            width: 70%;
-            height: 4vw;
-            margin-top: 10%;
-            margin-left: 6%;
-        }
-    } */
-    
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-   /*  @media only screen and (min-width: 600px) {
-        #mainCont {
-            width: 100%;
-        }
-        .cont1 {
-            width: 100%;
-            height: 44vw;
-        }
-        .cont1 > div:nth-child(2) {
-            font-size: 42px;
-            margin-top: 3%;
-        }
-        .cont2 {
-            width: 0%;
-        }
-        .box1 {
-            width: 30%;
-            font-size: 30px;
-            margin-top: 6%;
-        }
-        .name_box {
-            width: 50%;
-        }
-        .box1 > img {
-            width: 100%;
-            height: 5vw;
-        }
-        form > div:nth-child(n) > input {
-            width: 92%;
-            height: 5vw;
-        }
-        .btn > button {
-            width: 93%;
-            height: 6vw;
-            margin-top: 8%;
-            color: white;
-            font-size: 15px;
-        }
-        form > div:nth-child(n) {
-            width: 50%;
-            margin-top: 3%;
-            height: 8vw;
-            border: 0px;
-        }
-        .btn2 > div:nth-child(2) > button {
-            width: 90%;
-            height: 6vw;
-        }
-        .btn2 {
-            display: grid;
-            grid-template-rows: 6vw;
-            grid-template-columns: 20% 80%;
-            width: 50%;
-            margin-left: 25%;
-            margin-top: 3%;
-        }
-        .btn2 > div:nth-child(1) > img {
-            width: 80%;
-            height: 4vw;
-            margin-top: 7%;
-        }
-        .btn {
-            width:50%;
-            margin-left: 25%;
-            margin-top: 3%;
-        }
-    
-    } */
-    
-    /* Medium devices (landscape tablets, 768px and up) */
-   /*  @media only screen and (min-width: 768px) {
-        #mainCont {
-            width: 100%;
-        }
-        .cont1 {
-            width: 100%;
-            height: 44vw;
-        }
-        .cont1 > div:nth-child(2) {
-            font-size: 42px;
-            margin-top: 3%;
-        }
-        .cont2 {
-            width: 0%;
-        }
-        .box1 {
-            width: 30%;
-            font-size: 30px;
-            margin-top: 6%;
-        }
-        .box1 > img {
-            width: 60%;
-            height: 3vw;
-        }
-        .cont1 > div:nth-child(2) {
-            font-size: 39px;
-            margin-top: 0.5%;
-        }
-        form > div:nth-child(n) > input {
-            width: 92%;
-            height: 4vw;
-        }
-        .btn2 > div:nth-child(2) > button {
-            width: 90%;
-            height: 5vw;
-        }
-        .btn2 {
-            display: grid;
-            grid-template-rows: 5vw;
-            grid-template-columns: 15% 85%;
-            width: 50%;
-            margin-left: 25%;
-            margin-top: 2%;
-        }
-        .btn > button {
-            width: 93%;
-            height: 5vw;
-            margin-top: 3%;
-            color: white;
-            font-size: 15px;
-        }
-        .btn2 > div:nth-child(1) > img {
-            width: 70%;
-            height: 3vw;
-            margin-top: 12%;
-            margin-left: 8%;
-        }
-    } */
-    
-    /* Large devices (laptops/desktops, 992px and up) */
-    /* @media only screen and (min-width: 992px) {
-        #mainCont {
-            width: 100%;
-            display: flex;
-            margin: 0%;
-        }
-        .cont1 {
-            width: 33%;
-            margin: 0%;
-        }
-        .box1 {
-            width: 60%;
-            margin: auto;
-            margin-top: 8%;
-            font-size: 40px;
-            text-align: center;
-        }
-        .box1 > img {
-            width: 100%;
-            height: 3vw;
-        }
-        .cont1 > div:nth-child(2) {
-            margin-top: 4%;
-        }
-        .cont2 {
-            width: 67%;
-            background-color: blue;
-            height:60.1vw;
-            background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-            background-size: 65%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-position: bottom;
-        }
-        form > div:nth-child(n) {
-            font-size: 18px;
-            width: 80%;
-            text-align: left;
-            margin-top: 10%;
-        }
-        form > div:nth-child(2) {
-            margin-top: 9%;
-        }
-        form > div:nth-child(n) > input {
-            width: 98%;
-            height: 5vw;
-            margin-top: 3%;
-            padding-left: 2%;
-            border-color: white;
-        }
-        .btn {
-            width: 82.6%;
-            margin: auto;
-            margin-left: 10%;
-        }
-        .btn > button {
-            width: 100%;
-            height: 5vw;
-            margin-top: 17%;
-            background-color:#dc3545;
-            border: 0px;
-            color: white;
-            font-size: 15px;
-            font-weight: bold;
-        }
-        .btn2 {
-            display: grid;
-            grid-template-rows: 5vw;
-            grid-template-columns: 15% 85%;
-            width: 82%;
-            margin-left: 10%;
-            margin-top: 5%;
-        }
-        .btn2 > div:nth-child(1) > img {
-            width: 90%;
-            height: 2.4vw;
-            margin-top: 27%;
-        }
-        .btn2 > div:nth-child(1) {
-            border: 1px solid rgb(18, 151, 204);
-        }
-        .btn2 > div:nth-child(2) > button {
-            width: 100%;
-            height: 5vw;
-           background-color: rgb(18, 151, 204);
-           border: 0px;
-           color: white;
-           font-weight: bold;
-        }
-        .cont1 > div:nth-child(4) {
-            text-align: center;
-            margin-top: 10%;
-            line-height: 25px;
-            font-size: 16px;
-        }
-        .cont2 > div > img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            margin: 15px;
-            border: 4px solid rgb(29, 29, 219);
-            flex-grow: 4;
-        }
-        .cont2 > div > p > i {
-            margin-left: 50px;
-        }
-        .cont2 > div {
-            width: 80%;
-            background-color:rgb(42, 42, 218);
-            height: 13vw;
-            margin: 10px;
-            margin-left: 18%;
-            border-radius: 1%;
-            display: flex;
-        }
-    } */
-    
-    /* Extra large devices (large laptops and desktops, 1032px and up) */
-   /*  @media only screen and (min-width: 1032px) {
-        .box1 > img {
-            width: 88%;
-            height: 3vw;
-        }
-        form > div:nth-child(n) > input {
-            height: 4.5vw;
-        }
-        form > div:nth-child(2), div:nth-child(4) {
-            margin-top: 4%;
-        }
-        form > div:nth-child(1) {
-            margin-top: 5vw;
-        }
-        .btn > button {
-            height: 5vw;
-            margin-top: 1.7%;
-        }
-        .btn {
-            margin-top: 3vw;
-        }
-        .cont2 {
-            width: 67%;
-            background-color: blue;
-            height:58vw;
-            background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-            background-size: 65%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-position: bottom;
-        }
-        .box1 {
-            margin-top: 4vw;
-            font-size: 20px;
-        }
-        .btn2 > div:nth-child(2) > button {
-            height: 4.5vw;
-        }
-        .btn2 {
-            grid-template-rows: 4.5vw;
-            margin-top: 4%;
-        }
-        .cont2 > div {
-            width: 80%;
-            background-color:rgb(42, 42, 218);
-            height: 12vw;
-            margin: 10px;
-            margin-left: 18%;
-            border-radius: 1%;
-            display: flex;
-        }
-        .cont2 > div > img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            margin: 15px;
-            border: 4px solid rgb(29, 29, 219);
-            flex-grow: 4;
-        }
-        .cont2 > div > p > i {
-            margin-left: 50px;
-        }
-    }*/
-        /* Extra large devices (large laptops and desktops, 1080px and up) */
-    /* @media only screen and (min-width: 1080px) {
-        .box1 > img {
-            width: 85%;
-            height: 3vw;
-        }
-        form > div:nth-child(n) > input {
-            height: 4vw;
-        }
-        form > div:nth-child(2), div:nth-child(4) {
-            margin-top: 1%;
-        }
-        form > div:nth-child(1) {
-            margin-top: 3vw;
-        }
-        .btn > button {
-            height: 4vw;
-            margin-top: 1.7%;
-        }
-        .btn {
-            margin-top: 0.5vw;
-        }
-        .cont2 {
-            width: 67%;
-            background-color: blue;
-            height:56.5vw;
-            background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-            background-size: 65%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-position: bottom;
-        }
-        .box1 {
-            margin-top: 4vw;
-            font-size: 20px;
-        }
-        form > div:nth-child(2) {
-            margin-top: 1%;
-        }
-        .btn2 > div:nth-child(2) > button {
-            height: 4vw;
-        }
-        .btn2 {
-            grid-template-rows: 4vw;
-            margin-top: 4%;
-        }
-        .cont2 > div {
-            width: 80%;
-            background-color:rgb(42, 42, 218);
-            height: 12vw;
-            margin: 10px;
-            margin-left: 18%;
-            border-radius: 1%;
-            display: flex;
-        }
-        .cont2 > div > img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            margin: 15px;
-            border: 4px solid rgb(29, 29, 219);
-            flex-grow: 4;
-        }
-        .cont2 > div > p > i {
-            margin-left: 50px;
-        }
-        .btn2 > div:nth-child(1) > img {
-            width: 70%;
-            height: 2vw;
-            margin-top: 20%;
-            margin-left: 8%;
-        }
-    } */
-     
-      /*  /* Extra large devices (large laptops and desktops, 1125px and up) */
-    /* @media only screen and (min-width: 1365px) {
-        .box1 > img {
-            width: 83%;
-            height: 2vw;
-        }
-        form > div:nth-child(n) > input {
-            height: 3vw;
-        }
-        form > div:nth-child(2), div:nth-child(4) {
-            margin-top: 1%;
-        }
-        form > div:nth-child(1) {
-            margin-top: 3vw;
-        }
-        .btn > button {
-            height: 3vw;
-            margin-top: 1.7%;
-        }
-        .btn {
-            margin-top: 0.5vw;
-        }
-        .cont2 {
-            width: 67%;
-            background-color: blue;
-            height:44.5vw;
-            background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-            background-size: 65%;
-            background-repeat: no-repeat;
-            background-position: center;
-            background-position: bottom;
-        }
-        .box1 {
-            margin-top: 2vw;
-            font-size: 20px;
-        }
-        form > div:nth-child(2) {
-            margin-top: 1%;
-        }
-        .btn2 > div:nth-child(2) > button {
-            height: 3vw;
-        }
-        .btn2 {
-            grid-template-rows: 3vw;
-            margin-top: 4%;
-        }
-        .cont2 > div {
-            width: 80%;
-            background-color:rgb(42, 42, 218);
-            height: 10vw;
-            margin: 10px;
-            margin-left: 18%;
-            border-radius: 1%;
-            display: flex;
-            color: white;
-        }
-        .cont2 > div > img {
-            width: 70px;
-            height: 70px;
-            border-radius: 50%;
-            margin: 15px;
-            border: 4px solid rgb(29, 29, 219);
-            flex-grow: 4;
-        }
-        .btn2 > div:nth-child(1) > img {
-            width: 70%;
-            height: 2vw;
-            margin-top: 7%;
-            margin-left: 8%;
-        }
-    }*/
+    .media > div > img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 15px;
+        border: 4px solid rgb(29, 29, 219);
+        flex-grow: 4;
+    }
+    .cont2 > div > p > i {
+        margin-left: 50px;
+    }
+    .cont2 > div {
+        width: 80%;
+        background-color:rgb(42, 42, 218);
+        height: 13vw;
+        margin: 10px;
+        margin-left: 18%;
+        border-radius: 1%;
+        color: white;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 8vw;
+        grid-template-columns: 20% 80%;
+    }
+} 
+
+/* Extra large devices (large laptops and desktops, 1032px and up) */
+@media only screen and (min-width: 1032px) {
+    .box1 > img {
+        width: 88%;
+        height: 3vw;
+    }
+    form > div:nth-child(n) > input {
+        height: 4.5vw;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 3px;
+    }
+    form > div:nth-child(2), div:nth-child(4) {
+        margin-top: 4%;
+    }
+    form > div:nth-child(1) {
+        margin-top: 5vw;
+    }
+    .btn > button {
+        height: 5vw;
+        margin-top: 1.7%;
+    }
+    .btn {
+        margin-top: 3vw;
+    }
+    .cont2 {
+        width: 67%;
+        background-color: blue;
+        height:58vw;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
+        display: initial;
+    }
+    .box1 {
+        margin-top: 4vw;
+        font-size: 20px;
+    }
+    .btn2 > div:nth-child(2) > button {
+        height: 4.5vw;
+    }
+    .btn2 {
+        grid-template-rows: 4.5vw;
+        margin-top: 4%;
+    }
+    .cont2 > div {
+        width: 80%;
+        background-color:rgb(42, 42, 218);
+        height: 12vw;
+        margin: 10px;
+        margin-left: 18%;
+        border-radius: 1%;
+        color: white;
+    }
+    .media > div > img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 15px;
+        border: 4px solid rgb(29, 29, 219);
+    }
+    .cont2 > div > p > i {
+        margin-left: 50px;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 8vw;
+        grid-template-columns: 20% 80%;
+    }
+}
+    /* Extra large devices (large laptops and desktops, 1080px and up) */
+@media only screen and (min-width: 1080px) {
+    .box1 > img {
+        width: 85%;
+        height: 3vw;
+    }
+    form > div:nth-child(n) > input {
+        height: 4vw;
+        border: 1px solid rgb(221, 218, 218);
+        border-radius: 3px;
+    }
+    form > div:nth-child(2), div:nth-child(4) {
+        margin-top: 1%;
+    }
+    form > div:nth-child(1) {
+        margin-top: 3vw;
+    }
+    .btn > button {
+        height: 4vw;
+        margin-top: 1.7%;
+    }
+    .btn {
+        margin-top: 0.5vw;
+    }
+    .cont2 {
+        width: 67%;
+        background-color: blue;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
+        display: initial;
+    }
+    .box1 {
+        margin-top: 4vw;
+        font-size: 20px;
+    }
+    form > div:nth-child(2) {
+        margin-top: 1%;
+    }
+    .btn2 > div:nth-child(2) > button {
+        height: 4vw;
+    }
+    .btn2 {
+        grid-template-rows: 4vw;
+        margin-top: 4%;
+    }
+    .cont2 > div {
+        width: 80%;
+        background-color:rgb(42, 42, 218);
+        height: 12vw;
+        margin: 10px;
+        margin-left: 18%;
+        border-radius: 1%;
+        color: white;
+    }
+    .media > div > img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin: 15px;
+        border: 4px solid rgb(29, 29, 219);
+        
+    }
+    .cont2 > div > p > i {
+        margin-left: 50px;
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 70%;
+        height: 2vw;
+        margin-top: 20%;
+        margin-left: 8%;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 8vw;
+        grid-template-columns: 20% 80%;
+    }
+}
+ 
+    /* Extra large devices (large laptops and desktops, 1365px and up) */
+@media only screen and (min-width: 1365px) {
+    .box1 > img {
+        width: 83%;
+        height: 2vw;
+    }
+    form > div:nth-child(n) > input {
+        height: 3vw;
+        border: 1px solid rgb(221, 218, 218);
+        color: hsl(0, 17%, 93%);
+        border-radius: 3px;
+    }
+    form > div:nth-child(2), div:nth-child(4) {
+        margin-top: 1%;
+    }
+    form > div:nth-child(1) {
+        margin-top: 3vw;
+    }
+    .btn > button {
+        height: 3vw;
+        margin-top: 1.7%;
+        border-radius: 3px;
+    }
+    .btn {
+        margin-top: 0.5vw;
+    }
+    .cont2 {
+        width: 67%;
+        background-color: blue;
+        height:44.5vw;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
+        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
+        display:initial;
+    }
+    .box1 {
+        margin-top: 2vw;
+        font-size: 20px;
+    }
+    form > div:nth-child(2) {
+        margin-top: 1%;
+    }
+    .btn2 > div:nth-child(2) > button {
+        height: 3vw;
+    }
+    .btn2 {
+        grid-template-rows: 3vw;
+        margin-top: 4%;
+    }
+    .cont2 > div {
+        width: 83%;
+        background-color:rgb(42, 42, 218);
+        margin: 10px;
+        margin-left: 15%;
+        border-radius: 1%;
+        color: white;
+        height: 8vw;
+    }
+    .media > div > img {
+        width: 65px;
+        height: 65px;
+        border-radius: 50%;
+        margin: 18px;
+        border: 4px solid rgb(29, 29, 219);
+    }
+    .btn2 > div:nth-child(1) > img {
+        width: 80%;
+        height: 2vw;
+        margin-top: 8%;
+        margin-left: 8%;
+        margin-right: 3px;
+    }
+    .media {
+        display: grid;
+        grid-template-rows: 5vw;
+        grid-template-columns: 15% 80%;
+        padding-top: 8px;
+    }
+    .mediatext > i {
+        margin-left: 135px;
+        margin-top: 10px;
+    }
+    .mediatext {
+        line-height: 20px;
+    }
+}
