@@ -1,3 +1,7 @@
+*{ font-size: 14px;
+    font-family: 'Poppins',sans-serif!important;
+    line-height: 1.5;
+}
 #mainCont {
     width: 100%;
     display: flex;
@@ -453,7 +457,7 @@ form > div:nth-child(n) > input {
         margin-top: 4%;
     }
     .cont2 > div {
-        width: 80%;
+        width: 85%;
         background-color:rgb(42, 42, 218);
         height: 12vw;
         margin: 10px;
@@ -595,6 +599,9 @@ form > div:nth-child(n) > input {
         background-position: bottom;
         background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
         display:initial;
+        position:fixed;
+        margin-right: 0;
+        margin-left: 35%;
     }
     .box1 {
         margin-top: 2vw;
@@ -612,19 +619,18 @@ form > div:nth-child(n) > input {
     }
     .cont2 > div {
         width: 83%;
-        background-color:rgb(42, 42, 218);
         margin: 10px;
-        margin-left: 15%;
+        margin-left: 10% !important;
         border-radius: 1%;
         color: white;
         height: 8vw;
+        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
     }
-    .media > div > img {
+    .media > img {
         width: 65px;
-        height: 65px;
         border-radius: 50%;
         margin: 18px;
-        border: 4px solid rgb(29, 29, 219);
+        border: 5px solid #426ece ;
     }
     .btn2 > div:nth-child(1) > img {
         width: 80%;
