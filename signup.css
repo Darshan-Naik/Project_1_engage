@@ -97,35 +97,36 @@ form > div:nth-child(n) > input {
         width: 100%;
         height: 44vw;
     }
+    .cont1 > div:nth-child(2) {
+        margin-top: 8px;
+    }
     .cont2 {
         width: 0%;
         display: none;
     }
     .box1 {
         width: 40%;
-        font-size: 35px;
-        margin-top: 6%;
+        font-size: 18px;
+        margin-top: 40px;
     }
     .box1 > img {
-        width: 100%;
-        height: 6vw;
+        width: 90%;
+        height: 5vw;
     }
     form > div:nth-child(n) > input {
         width: 93%;
         height: 6vw;
         border: 1px solid rgb(214, 210, 210);
         border-radius: 3px;
+        margin-top: 5px;
     }
     .btn > button {
         width: 90%;
         height: 7vw;
-        margin-top: 8%;
+        margin-top: 7%;
         color: white;
         font-size: 15px;
         border-radius: 3px;
-    }
-    form > div:nth-child(n) {
-        width: 80%;
     }
     .btn2 > div:nth-child(2) > button {
         width: 90%;
@@ -138,10 +139,21 @@ form > div:nth-child(n) > input {
         margin-top: 3%;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 70%;
+        width: 65%;
         height: 4vw;
         margin-top: 10%;
-        margin-left: 6%;
+        margin-left: 13%;
+    }
+    .signupform > div:nth-child(n) {
+        margin-top: 16px;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .lastlineText {
+        font-size: 12.5px;
+        line-height: 24px;
+    }
+    #mainCont {
+       height: 650px;
     }
 } 
 
@@ -155,7 +167,7 @@ form > div:nth-child(n) > input {
         height: 44vw;
     }
     .cont1 > div:nth-child(2) {
-        font-size: 42px;
+        font-size: 20px;
         margin-top: 3%;
     }
     .cont2 {
@@ -298,23 +310,31 @@ form > div:nth-child(n) > input {
         font-size: 40px;
         text-align: center;
     }
+    .signupform > div:nth-child(n) {
+        margin-top: 23px;
+    }
     .box1 > img {
         width: 100%;
         height: 3vw;
     }
     .cont1 > div:nth-child(2) {
-        margin-top: 4%;
+        margin-top: 0%;
+        font-size: 21px;
+        font-weight:normal;
+        width: 300px;
+        margin: auto;
+        text-align: center;
     }
-    .cont2 {
-        width: 67%;
-        background-color: blue;
-        height:60.1vw;
+    #backimage {
+        width: 100%;
+        height: 70vh;
         background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-        background-size: 65%;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position:left;
         background-position: bottom;
-        display: initial;
+        background-color: transparent;
+        margin-top: 60px;
+        margin-left: 20px;
     }
     form > div:nth-child(n) {
         font-size: 18px;
@@ -379,30 +399,48 @@ form > div:nth-child(n) > input {
         line-height: 25px;
         font-size: 16px;
     }
-    .media > div > img {
+    .media > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
-        border: 4px solid rgb(29, 29, 219);
+        border: 4px solid rgb(90, 90, 240);
         flex-grow: 4;
     }
-    .cont2 > div > p > i {
-        margin-left: 50px;
-    }
-    .cont2 > div {
-        width: 80%;
-        background-color:rgb(42, 42, 218);
-        height: 13vw;
+    .cont2 > div:nth-child(1) {
+        width: 83%;
         margin: 10px;
-        margin-left: 18%;
+        margin-left: 10% !important;
         border-radius: 1%;
         color: white;
+        height: 14vw;
+        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
+        text-align: right;
+        padding-right: 20px;
+    }
+    .cont2 {
+        width: 65%;
+        height:100vh;
+        background-size: 65%;
+        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
+        display:initial;
+        position:fixed;
+        margin-right: 0;
+    }
+    .mediatext {
+        font-size: 13px;
+        padding-top: 5px;
+    }
+    .mediatext > i {
+        font-size: 13px;
     }
     .media {
         display: grid;
-        grid-template-rows: 8vw;
+        grid-template-rows: 6vw;
         grid-template-columns: 20% 80%;
+    }
+    .media > p:nth-child(1) {
+        text-align: left;
     }
 } 
 
@@ -432,14 +470,24 @@ form > div:nth-child(n) > input {
     }
     .cont2 {
         width: 67%;
-        background-color: blue;
-        height:58vw;
-        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        height:100vh;
         background-size: 65%;
+        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
+        display:initial;
+        position:fixed;
+        margin-right: 0;
+        margin-left: 35%;
+    }
+    #backimage {
+        width: 100%;
+        height: 70vh;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position:left;
         background-position: bottom;
-        display: initial;
+        background-color: transparent;
+        margin-top: 60px;
+        margin-left: 20px;
     }
     .box1 {
         margin-top: 4vw;
@@ -452,28 +500,28 @@ form > div:nth-child(n) > input {
         grid-template-rows: 4.5vw;
         margin-top: 4%;
     }
-    .cont2 > div {
-        width: 85%;
-        background-color:rgb(42, 42, 218);
-        height: 12vw;
+    .cont2 > div:nth-child(1) {
+        width: 83%;
         margin: 10px;
-        margin-left: 18%;
+        margin-left: 10% !important;
         border-radius: 1%;
         color: white;
+        height: 13vw;
+        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
     }
     .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
-        border: 4px solid rgb(29, 29, 219);
+        border: 4px solid rgb(73, 73, 224);
     }
     .cont2 > div > p > i {
         margin-left: 50px;
     }
     .media {
         display: grid;
-        grid-template-rows: 8vw;
+        grid-template-rows: 6vw;
         grid-template-columns: 20% 80%;
     }
 }
@@ -503,13 +551,13 @@ form > div:nth-child(n) > input {
     }
     .cont2 {
         width: 67%;
-        background-color: blue;
-        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        height:100vh;
         background-size: 65%;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-position: bottom;
-        display: initial;
+        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
+        display:initial;
+        position:fixed;
+        margin-right: 0;
+        margin-left: 35%;
     }
     .box1 {
         margin-top: 4vw;
@@ -525,14 +573,14 @@ form > div:nth-child(n) > input {
         grid-template-rows: 4vw;
         margin-top: 4%;
     }
-    .cont2 > div {
-        width: 80%;
-        background-color:rgb(42, 42, 218);
-        height: 12vw;
+    .cont2 > div:nth-child(1) {
+        width: 83%;
         margin: 10px;
-        margin-left: 18%;
+        margin-left: 10% !important;
         border-radius: 1%;
         color: white;
+        height: 11vw;
+        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
     }
     .media > div > img {
         width: 70px;
@@ -540,7 +588,17 @@ form > div:nth-child(n) > input {
         border-radius: 50%;
         margin: 15px;
         border: 4px solid rgb(29, 29, 219);
-        
+    }
+    #backimage {
+        width: 100%;
+        height: 70vh;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        background-repeat: no-repeat;
+        background-position:left;
+        background-position: bottom;
+        background-color: transparent;
+        margin-top: 60px;
+        margin-left: 20px;
     }
     .cont2 > div > p > i {
         margin-left: 50px;
@@ -553,7 +611,7 @@ form > div:nth-child(n) > input {
     }
     .media {
         display: grid;
-        grid-template-rows: 8vw;
+        grid-template-rows: 6vw;
         grid-template-columns: 20% 80%;
     }
 }
