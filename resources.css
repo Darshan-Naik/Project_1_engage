@@ -10,14 +10,14 @@
 }
 .top1{
     color:#2f2c2c;
-    font-size: 38px!important;
+    font-size: 42px!important;
     text-align: center;
     font-weight: 400;
     margin-bottom: 0;
 
 }
 .top5{
-    font-size: 19px;
+    font-size: 26px;
     margin: 0 0 7px;
     color:#2f2c2c;
     font-weight: bold;
@@ -26,9 +26,10 @@
 }
 #grid11{
     text-align: center;
-    max-width: 1320px;
+    max-width: 1570px;
     margin: auto;
-    gap: 25px;
+    gap: 50px;
+    row-gap: 100px;
     display:grid;
     grid-template: "b1 b2 b3"
     "b4 b5 b6"
@@ -36,51 +37,82 @@
 }
 #box1{
     grid-area: b1;
+    padding: 30px 20px;
+    
 }
 #box2{
     grid-area: b2;
+    padding: 30px 20px;
 }
 #box3{
     grid-area: b3;
+    padding: 30px 20px;
 }
 #box4{
     grid-area: b4;
+    padding: 30px 20px;
 }
 #box5{
     grid-area: b5;
+    padding: 30px 20px;
 }
 #box6{
     grid-area: b6;
+    padding: 30px 20px;
 }
 #box7{
     grid-area: b7;
+    padding: 30px 20px;
 }
 #box8{
     grid-area: b8;
+    padding: 30px 20px;
+}
+#box9{
+    grid-area: b9;
+    padding: 30px 20px;
 }
 .Img{
-    width: 330px;
+    width: 100%;
+    
+}
+.Img>img{
+    width: 430px;
+
+}
+a{
+    text-decoration : none!important;
 }
 .Top4{
-    font-size: 30px;
+    font-size: 34px;
     margin-bottom: 20px;
-    line-height: 1;
+    line-height: 1.5;
+    font-weight: 400;
     color: #6f6f6f;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 .TopP{
-    font-size: 16px;
+    font-size: 22px;
     color: #252525;
     font-weight: 400;
-    padding: 30px 20px;
-    line-height: 24px;
+    margin-bottom: 20px;
+    line-height: 1.5;
     text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
 .readMore{
     color: #0067b8;
     text-align: center;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
-    padding: 30px 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
 }
