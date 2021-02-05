@@ -38,35 +38,43 @@
 #box1{
     grid-area: b1;
     padding: 30px 20px;
+    border-radius: 4px;
     
 }
 #box2{
     grid-area: b2;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box3{
     grid-area: b3;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box4{
     grid-area: b4;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box5{
     grid-area: b5;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box6{
     grid-area: b6;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box7{
     grid-area: b7;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box8{
     grid-area: b8;
     padding: 30px 20px;
+    border-radius: 4px;
 }
 #box9{
     grid-area: b9;
