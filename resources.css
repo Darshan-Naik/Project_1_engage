@@ -5,7 +5,7 @@
 .Heading{
     padding: 90px 0;
     margin: auto;
-    width: 1200px;
+    
 
 }
 .top1{
@@ -125,8 +125,37 @@ a{
     
 }
 @media(max-width:992px){
+    #grid11{
+        text-align: center;
+        
+        margin: auto;
+        gap: 50px;
+        row-gap: 100px;
+        display:grid;
+        grid-template: "b1 b2"
+        "b3 b10"
+        "b4 b5"
+        "b11 b6"
+        "b7 b8";
+    }
 
 }
 @media(max-width:600px){
+    #grid11{
+        text-align: center;
+        
+        margin: auto;
+        gap: 50px;
+        row-gap: 100px;
+        display:grid;
+        grid-template: "b1"
+        "b2"
+        "b3"
+        "b4"
+        "b5"
+        "b6"
+        "b7"
+        "b8";
+    }
     
 }
