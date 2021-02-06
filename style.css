@@ -17,6 +17,26 @@ header{
     width: 170px;
     margin-top: 4px;
 }
+.mobile_nav{
+    padding-top: 80px;
+    display: none;
+}
+#n_bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 25px;
+}
+.nav_bar{
+    display: none;
+}
+.nav_icon{
+    display: block;
+    width: 30px;
+}
+.nav_icon>img{
+    width: 100%;
+}
 .nav_bar>a{
     margin: 0 10px;
     text-decoration: none;
@@ -26,7 +46,9 @@ header{
     transition: all .3s ease;
 }
 .nav_bar >button{
+   
     margin: 0 10px;
+    margin-top: 10px;
     padding: 9px 12px;  
     cursor: pointer;
     border-radius: 4px;
@@ -41,6 +63,7 @@ header{
     text-transform: uppercase;
     letter-spacing: .08em;
     margin-right: 5px;
+    margin-left: 0;
 }
 .nav_bar >button:nth-last-child(1){
     font-size: 13px!important;
@@ -757,6 +780,12 @@ margin-bottom: 20px;
     header{
         margin: 0 8%;
     }
+    .nav_bar{
+        display: block;
+    }
+    .nav_icon{
+        display: none;
+    }
     .footer{
         width: 75%;
         margin: auto;
@@ -829,12 +858,18 @@ margin-bottom: 20px;
     .part_p{
         display: block;
     }
+    .mobile_nav{
+        display: none !important;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1500px and up) */
 @media only screen and (min-width: 1400px) {
     header{
         margin: 0 19%;
+    }
+    .nav_icon{
+        display: none;
     }
     .footer{
         width: 75%;
@@ -886,5 +921,8 @@ margin-bottom: 20px;
     }
     .heading h3{
         padding-left: 20%;
+    }
+    .mobile_nav{
+        display: none !important;
     }
 }

@@ -1,3 +1,6 @@
+/* *{
+  margin:auto;
+} */
 .pr.title1{
     color: #55575a
 }
@@ -57,7 +60,9 @@ h6 {
     background-color: #e9e9f0;
 }
 
+
 #t1,#t2,#t3,.a20 {
+
     width: 140px;
     height: 30px;
     border-radius: 50px;
