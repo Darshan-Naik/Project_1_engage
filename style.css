@@ -146,8 +146,8 @@ background-color: transparent;
 font-weight: 500;
 transition: all .3s ease;
 }
-.sign_form input::placeholder{
-    color: #d1d0d0;
+input::placeholder{
+    color: #d1d0d0!important;
 }
 .footer_list,.footer_end{
     background: linear-gradient(to right,#f6f6f6,#fff);
