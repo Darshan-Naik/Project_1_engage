@@ -56,7 +56,10 @@ h6 {
     margin-bottom: 19px;
     background-color: #e9e9f0;
 }
-#t1,#t2,#t3 {
+
+
+#t1,#t2,#t3,.a20 {
+
     width: 140px;
     height: 30px;
     border-radius: 50px;
