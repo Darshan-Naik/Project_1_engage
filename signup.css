@@ -15,7 +15,6 @@
 .box1 {
     width: 60%;
     margin: auto;
-    margin-top: 11%;
     font-size: 40px;
     text-align: center;
 }
@@ -31,14 +30,11 @@
     background-color: blue;
     height:44vw;
 }
-form > div:nth-child(n) {
+.signupform > div:nth-child(n) {
     font-size: 18px;
     width: 80%;
     text-align: left;
-    margin-top: 9%;
-}
-form > div:nth-child(2) {
-    margin-top: 4%;
+    margin-top: 10px;
 }
 form > div:nth-child(n) > input {
     width: 100%;
@@ -89,6 +85,17 @@ form > div:nth-child(n) > input {
 }
 .cont1 > div:nth-child(4) {
     text-align: center;
+}
+#backimage {
+    width: 100%;
+    height: 70vh;
+    background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-position: bottom;
+    background-color: transparent;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 
 
@@ -292,8 +299,7 @@ form > div:nth-child(n) > input {
         margin: 0%;
     }
     .cont1 {
-        width: 33%;
-        margin: 0%;
+        width: 30%;
     }
     .box1 {
         width: 60%;
@@ -312,7 +318,7 @@ form > div:nth-child(n) > input {
     .cont2 {
         width: 67%;
         background-color: blue;
-        height:60.1vw;
+        height:100vh;
         background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
         background-repeat: no-repeat;
@@ -437,7 +443,7 @@ form > div:nth-child(n) > input {
     .cont2 {
         width: 67%;
         background-color: blue;
-        height:58vw;
+        height:100vh;
         background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
         background-repeat: no-repeat;
@@ -565,20 +571,14 @@ form > div:nth-child(n) > input {
     /* Extra large devices (large laptops and desktops, 1365px and up) */
 @media only screen and (min-width: 1365px) {
     .box1 > img {
-        width: 83%;
+        width: 80%;
         height: 2vw;
     }
     form > div:nth-child(n) > input {
-        height: 3vw;
+        height: 3.3vw;
         border: 1px solid rgb(221, 218, 218);
         color: hsl(0, 17%, 93%);
         border-radius: 3px;
-    }
-    form > div:nth-child(2), div:nth-child(4) {
-        margin-top: 1%;
-    }
-    form > div:nth-child(1) {
-        margin-top: 3vw;
     }
     .btn > button {
         height: 3vw;
@@ -591,7 +591,7 @@ form > div:nth-child(n) > input {
     .cont2 {
         width: 67%;
         background-color: blue;
-        height:44.5vw;
+        height:100vh;
         background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
         background-repeat: no-repeat;
@@ -602,13 +602,6 @@ form > div:nth-child(n) > input {
         position:fixed;
         margin-right: 0;
         margin-left: 35%;
-    }
-    .box1 {
-        margin-top: 2vw;
-        font-size: 20px;
-    }
-    form > div:nth-child(2) {
-        margin-top: 1%;
     }
     .btn2 > div:nth-child(2) > button {
         height: 3vw;
@@ -651,5 +644,11 @@ form > div:nth-child(n) > input {
     }
     .mediatext {
         line-height: 20px;
+    }
+    .cont1 > div:nth-child(2) {
+        font-size: 20px;
+    }
+    .signupform > div:nth-child(n) {
+        margin-top: 10px;
     }
 }

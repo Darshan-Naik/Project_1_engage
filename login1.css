@@ -45,6 +45,7 @@ form > div:nth-child(n) > input {
 }
 .btn {
     width: 82.6%;
+   
     margin: auto;
     margin-left: 10%;
 }
@@ -111,13 +112,13 @@ form > div:nth-child(n) > input {
     }
     form > div:nth-child(n) > input {
         width: 93%;
-        height: 9vw;
+        height: 6vw;
         border: 1px solid rgb(214, 210, 210);
         border-radius: 3px;
     }
     .btn > button {
         width: 90%;
-        height: 9vw;
+        height: 7vw;
         margin-top: 8%;
         color: white;
         font-size: 15px;
@@ -125,17 +126,14 @@ form > div:nth-child(n) > input {
     }
     form > div:nth-child(n) {
         width: 80%;
-        height: 100px;
-        margin-top: 20px;
-        text-align: left;
     }
     .btn2 > div:nth-child(2) > button {
         width: 90%;
-        height: 9vw;
+        height: 7vw;
     }
     .btn2 {
         display: grid;
-        grid-template-rows: 9vw;
+        grid-template-rows: 7vw;
         grid-template-columns: 20% 80%;
         margin-top: 3%;
     }
@@ -178,39 +176,45 @@ form > div:nth-child(n) > input {
     }
     form > div:nth-child(n) > input {
         width: 92%;
-        height: 7vw;
+        height: 5vw;
         border: 1px solid rgb(202, 199, 199);
         border-radius: 3px;
     }
-    form > div:nth-child(n) {
-        width: 80%;
-        height: 100px;
-        margin-top: 20px;
-        text-align: left;
-    }
     .btn > button {
-        width: 90%;
-        height: 7vw;
+        width: 93%;
+        height: 6vw;
         margin-top: 8%;
         color: white;
         font-size: 15px;
         border-radius: 3px;
     }
+    form > div:nth-child(n) {
+        width: 50%;
+        margin-top: 3%;
+        height: 8vw;
+        border: 0px;
+    }
     .btn2 > div:nth-child(2) > button {
         width: 90%;
-        height: 7vw;
+        height: 6vw;
     }
     .btn2 {
         display: grid;
-        grid-template-rows: 7vw;
-        grid-template-columns: 15% 85%;
+        grid-template-rows: 6vw;
+        grid-template-columns: 20% 80%;
+        width: 50%;
+        margin-left: 25%;
         margin-top: 3%;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 70%;
+        width: 80%;
         height: 4vw;
-        margin-top: 10%;
-        margin-left: 6%;
+        margin-top: 7%;
+    }
+    .btn {
+        width:50%;
+        margin-left: 25%;
+        margin-top: 3%;
     }
 
 } 
@@ -233,60 +237,46 @@ form > div:nth-child(n) > input {
         display: none;
     }
     .box1 {
-        width: 20%;
+        width: 30%;
         font-size: 30px;
-        text-align: left;
-        margin: auto;
+        margin-top: 6%;
     }
     .box1 > img {
-        width: 100%;
-        height: 4vw;
-        margin-top: 60px;
+        width: 60%;
+        height: 3vw;
     }
     .cont1 > div:nth-child(2) {
         font-size: 39px;
         margin-top: 0.5%;
-        width: 30%;
-        text-align: center;
     }
     form > div:nth-child(n) > input {
-        width: 390px;
-        height: 5vw;
-    }
-    form > div:nth-child(n) {
-        margin: auto;
-        width: 390px;
-    }
-    .btn > button {
-        width: 100%;
-        height: 5vw;
-        margin-top: 8%;
-        color: white;
-        font-size: 15px;
-        border-radius: 3px;
+        width: 92%;
+        height: 4vw;
     }
     .btn2 > div:nth-child(2) > button {
-        width: 100%;
+        width: 90%;
         height: 5vw;
     }
     .btn2 {
         display: grid;
         grid-template-rows: 5vw;
         grid-template-columns: 15% 85%;
-        margin: auto;
-        width: 400px;
-        margin-top: 10px;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2%;
     }
-    .btn {
-        margin: auto;
-        margin-top: 10px;
-        width: 400px;
+    .btn > button {
+        width: 93%;
+        height: 5vw;
+        margin-top: 3%;
+        color: white;
+        font-size: 15px;
     }
     .btn2 > div:nth-child(1) > img {
         width: 70%;
-        height: 4vw;
-        margin-top: 10%;
-        margin-left: 6%;
+        height: 3vw;
+        margin-top: 12%;
+        margin-left: 8%;
     }
 } 
 
@@ -304,6 +294,7 @@ form > div:nth-child(n) > input {
     .box1 {
         width: 60%;
         margin: auto;
+        margin-top: 8%;
         font-size: 40px;
         text-align: center;
     }
@@ -311,47 +302,19 @@ form > div:nth-child(n) > input {
         width: 100%;
         height: 3vw;
     }
-    .cont1 > div:nth-child(1) {
-        margin-top: 0px;
-    }
     .cont1 > div:nth-child(2) {
         margin-top: 4%;
     }
-    #backimage {
-        width: 100%;
-        height: 70vh;
-        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-        background-repeat: no-repeat;
-        background-position:left;
-        background-position: bottom;
-        background-color: transparent;
-        margin-top: 60px;
-        margin-left: 20px;
-    }
     .cont2 {
         width: 67%;
-        height:100vh;
+        background-color: blue;
+        height:60.1vw;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
-        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
-        display:initial;
-        position:fixed;
-        margin-right: 0;
-        margin-left: 35%;
-    }
-    .cont2 > div:nth-child(1) {
-        width: 83%;
-        margin: 10px;
-        margin-left: 10% !important;
-        border-radius: 1%;
-        color: white;
-        height: 14vw;
-        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
-    }
-    .mediatext {
-        font-size: 13px;
-    }
-    .mediatext > i {
-        font-size: 13px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
+        display: initial;
     }
     form > div:nth-child(n) {
         font-size: 18px;
@@ -375,7 +338,6 @@ form > div:nth-child(n) > input {
         width: 82.6%;
         margin: auto;
         margin-left: 10%;
-        margin-top: 10px;
     }
     .btn > button {
         width: 100%;
@@ -389,7 +351,7 @@ form > div:nth-child(n) > input {
     }
     .btn2 {
         display: grid;
-        grid-template-rows: 4vw;
+        grid-template-rows: 5vw;
         grid-template-columns: 15% 85%;
         width: 82%;
         margin-left: 10%;
@@ -415,21 +377,27 @@ form > div:nth-child(n) > input {
         text-align: center;
         margin-top: 10%;
         line-height: 25px;
-        font-size: 15px;
-    }
-    .lastlineText {
-        font-size: 13px;
-        line-height: 23px;
+        font-size: 16px;
     }
     .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
-        border: 4px solid rgb(90, 90, 240);
+        border: 4px solid rgb(29, 29, 219);
+        flex-grow: 4;
     }
     .cont2 > div > p > i {
         margin-left: 50px;
+    }
+    .cont2 > div {
+        width: 80%;
+        background-color:rgb(42, 42, 218);
+        height: 13vw;
+        margin: 10px;
+        margin-left: 18%;
+        border-radius: 1%;
+        color: white;
     }
     .media {
         display: grid;
@@ -464,24 +432,14 @@ form > div:nth-child(n) > input {
     }
     .cont2 {
         width: 67%;
-        height:100vh;
-        background-size: 65%;
-        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
-        display:initial;
-        position:fixed;
-        margin-right: 0;
-        margin-left: 35%;
-    }
-    #backimage {
-        width: 100%;
-        height: 70vh;
+        background-color: blue;
+        height:58vw;
         background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
+        background-size: 65%;
         background-repeat: no-repeat;
-        background-position:left;
+        background-position: center;
         background-position: bottom;
-        background-color: transparent;
-        margin-top: 60px;
-        margin-left: 20px;
+        display: initial;
     }
     .box1 {
         margin-top: 4vw;
@@ -494,21 +452,21 @@ form > div:nth-child(n) > input {
         grid-template-rows: 4.5vw;
         margin-top: 4%;
     }
-    .cont2 > div:nth-child(1) {
-        width: 83%;
+    .cont2 > div {
+        width: 85%;
+        background-color:rgb(42, 42, 218);
+        height: 12vw;
         margin: 10px;
-        margin-left: 10% !important;
+        margin-left: 18%;
         border-radius: 1%;
         color: white;
-        height: 13vw;
-        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
     }
     .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
-        border: 4px solid rgb(73, 73, 224);
+        border: 4px solid rgb(29, 29, 219);
     }
     .cont2 > div > p > i {
         margin-left: 50px;
@@ -517,27 +475,16 @@ form > div:nth-child(n) > input {
         display: grid;
         grid-template-rows: 8vw;
         grid-template-columns: 20% 80%;
-        padding-top: 10px;
-    }
-    .mediatext {
-        font-size: 13px;
-    }
-    .mediatext > i {
-        font-size: 13px;
     }
 }
     /* Extra large devices (large laptops and desktops, 1080px and up) */
 @media only screen and (min-width: 1080px) {
     .box1 > img {
-        width: 88%;
-        height: 2.8vw;
-    }
-    .lastlineText {
-        font-size: 13px;
-        line-height: 27px;
+        width: 85%;
+        height: 3vw;
     }
     form > div:nth-child(n) > input {
-        height: 47px;
+        height: 4vw;
         border: 1px solid rgb(221, 218, 218);
         border-radius: 3px;
     }
@@ -548,18 +495,21 @@ form > div:nth-child(n) > input {
         margin-top: 3vw;
     }
     .btn > button {
-        height: 49px;
+        height: 4vw;
         margin-top: 1.7%;
+    }
+    .btn {
+        margin-top: 0.5vw;
     }
     .cont2 {
         width: 67%;
-        height:100vh;
+        background-color: blue;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
-        background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
-        display:initial;
-        position:fixed;
-        margin-right: 0;
-        margin-left: 35%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
+        display: initial;
     }
     .box1 {
         margin-top: 4vw;
@@ -569,104 +519,74 @@ form > div:nth-child(n) > input {
         margin-top: 1%;
     }
     .btn2 > div:nth-child(2) > button {
-        height: 49px;
+        height: 4vw;
     }
     .btn2 {
-        grid-template-rows: 49px;
-        grid-template-columns: 20% 80%;
+        grid-template-rows: 4vw;
         margin-top: 4%;
     }
-    .cont2 > div:nth-child(1) {
-        width: 83%;
+    .cont2 > div {
+        width: 80%;
+        background-color:rgb(42, 42, 218);
+        height: 12vw;
         margin: 10px;
-        margin-left: 10% !important;
+        margin-left: 18%;
         border-radius: 1%;
         color: white;
-        height: 11vw;
-        background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
-    }
-    #backimage {
-        width: 100%;
-        height: 70vh;
-        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-        background-repeat: no-repeat;
-        background-position:left;
-        background-position: bottom;
-        background-color: transparent;
-        margin-top: 60px;
-        margin-left: 20px;
     }
     .media > div > img {
         width: 70px;
         height: 70px;
         border-radius: 50%;
         margin: 15px;
-        border: 4px solid rgb(66, 66, 235);
+        border: 4px solid rgb(29, 29, 219);
+        
     }
     .cont2 > div > p > i {
         margin-left: 50px;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 92%;
-        height: 3vw;
-        margin-top: 17%;
-        margin-left: 7%;
-        border-radius: 30px;
+        width: 70%;
+        height: 2vw;
+        margin-top: 20%;
+        margin-left: 8%;
     }
     .media {
         display: grid;
         grid-template-rows: 8vw;
         grid-template-columns: 20% 80%;
     }
-    .mediatext {
-        font-size: 13px;
-    }
-    .media > div:nth-child(2) {
-        margin-top: 12px;
-    }
-    .cont1 > div:nth-child(4) {
-        margin-top: 45px;
-    }
-    .cont1 > div:nth-child(2) {
-        font-size: 40px;
-        margin-top: 17px;
-    }
-    .btn {
-        margin-top: 25px;
-    }
 }
  
     /* Extra large devices (large laptops and desktops, 1365px and up) */
 @media only screen and (min-width: 1365px) {
     .box1 > img {
-        width: 78%;
-        height: 2.3vw;
+        width: 80%;
+        height: 2vw;
     }
-    input {
+    form > div:nth-child(n) > input {
+        height: 3.3vw;
         border: 1px solid rgb(221, 218, 218);
         color: hsl(0, 17%, 93%);
         border-radius: 3px;
     }
-    form > div:nth-child(n) {
-        height: 90px;
-        margin: 20px;
-        margin-left: 45px;
-    }
     .btn > button {
-        height: 3.8vw;
+        height: 3vw;
         margin-top: 1.7%;
         border-radius: 3px;
-    }
-    .btn2 > div:nth-child(1){
-       height: 3.7vw;
     }
     .btn {
         margin-top: 0.5vw;
     }
     .cont2 {
         width: 67%;
-        height:100vh;
+        background-color: blue;
+        height:44.5vw;
+        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
         background-size: 65%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: bottom;
         background: linear-gradient(135deg, #130CB7 10%,#52E5E7 100%);
         display:initial;
         position:fixed;
@@ -674,13 +594,13 @@ form > div:nth-child(n) > input {
         margin-left: 35%;
     }
     .btn2 > div:nth-child(2) > button {
-        height: 3.8vw;
+        height: 3vw;
     }
     .btn2 {
         grid-template-rows: 3vw;
         margin-top: 4%;
     }
-    .cont2 > div:nth-child(1) {
+    .cont2 > div {
         width: 83%;
         margin: 10px;
         margin-left: 10% !important;
@@ -689,23 +609,23 @@ form > div:nth-child(n) > input {
         height: 8vw;
         background-image: linear-gradient(135deg, #2856B7 10%, #339AD4 100%);
     }
-    .media > div:nth-child(1) > img {
+    .media > img {
         width: 65px;
         border-radius: 50%;
         margin: 18px;
-        border: 5px solid #4671ce;
+        border: 5px solid #426ece ;
     }
     .btn2 > div:nth-child(1) > img {
-        width: 85.8%;
+        width: 80%;
         height: 2vw;
-        margin-top: 22%;
+        margin-top: 8%;
         margin-left: 8%;
         margin-right: 3px;
     }
     .media {
         display: grid;
         grid-template-rows: 5vw;
-        grid-template-columns: 15% 85%;
+        grid-template-columns: 15% 80%;
         padding-top: 8px;
     }
     .mediatext > i {
@@ -716,28 +636,9 @@ form > div:nth-child(n) > input {
         line-height: 20px;
     }
     .cont1 > div:nth-child(2) {
-        font-size: 40px;
-        margin-top: 20px;
+        font-size: 20px;
     }
     .signupform > div:nth-child(n) {
         margin-top: 10px;
-    }
-    #backimage {
-        width: 100%;
-        height: 70vh;
-        background-image: url(https://d2p078bqz5urf7.cloudfront.net/cloud/assets/img/login-image.svg);
-        background-repeat: no-repeat;
-        background-position:left;
-        background-position: bottom;
-        background-color: transparent;
-        margin-top: 60px;
-        margin-left: 20px;
-    }
-    .lastlineText {
-        font-size: 13px;
-        line-height: 27px;
-    }
-    .cont1 > div:nth-child(4) {
-        margin-top: 37px;
     }
 }
