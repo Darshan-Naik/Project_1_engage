@@ -9,6 +9,7 @@ function navber(){
     var nav  =document.querySelector("#n_bar")
     var mobile=document.querySelector(".mobile_nav")
 
+
     if (cnt%2==0){
         nav.style.display = "none"
         mobile.style.display = "none"
@@ -26,3 +27,4 @@ function navber(){
 window.addEventListener("scroll", sticky)
 
 document.querySelector(".nav_icon").addEventListener("click",navber)
+
