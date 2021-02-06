@@ -237,6 +237,9 @@ a{
         grid-template: "left left right"
         "a1 a2 a3";
     }
+    .tryItout{
+        display: none;
+    }
     .box1,.box2,.box3{
         margin-bottom: 100px;
     }
@@ -255,8 +258,12 @@ a{
         grid-template: "left left"
         "right right";
     }
+    
     .box1,.box2,.box3{
         margin-bottom: 100px;
+    }
+    .tryItout,.checkBox1,.checkBox2{
+        display: none;
     }
     
     
